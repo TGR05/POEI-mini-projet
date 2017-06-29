@@ -1,7 +1,418 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1510e212-5bf1-449c-bdcc-e8012e86997e" name="Default" comment="" />
+    <list default="true" id="1510e212-5bf1-449c-bdcc-e8012e86997e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/config/schema/ctools.schema.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/ctools.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/ctools.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/ctools.services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/config/schema/ctools_block.schema.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/ctools_block.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/src/Plugin/Block/EntityField.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/src/Plugin/Deriver/EntityFieldDeriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/core.base_field_override.node.ctools_block_field_test.promote.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/core.entity_form_display.node.ctools_block_field_test.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/core.entity_view_display.node.ctools_block_field_test.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/core.entity_view_display.node.ctools_block_field_test.teaser.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/field.field.node.ctools_block_field_test.body.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/field.field.node.ctools_block_field_test.field_image.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/field.storage.node.field_image.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/config/install/node.type.ctools_block_field_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/modules/ctools_block_field_test/ctools_block_field_test.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_block/tests/src/Functional/EntityFieldBlockTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_views/ctools_views.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_views/ctools_views.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_views/src/Plugin/Display/Block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_views/src/Tests/CToolsViewsBasicViewBlockTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_views/tests/modules/ctools_views_test_views/ctools_views_test_views.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_views/tests/modules/ctools_views_test_views/test_views/views.view.ctools_views_entity_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/modules/ctools_views/tests/modules/ctools_views_test_views/test_views/views.view.ctools_views_test_view.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Access/AccessInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Access/TempstoreAccess.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Ajax/OpenModalWizardCommand.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Annotation/Relationship.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/ConstraintConditionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Context/AutomaticContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Context/EntityLazyLoadContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/ContextMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/ContextMapperInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/ContextNotFoundException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Controller/WizardEntityFormController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Controller/WizardFormController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Event/WizardEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/AjaxFormTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ConditionConfigure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ConditionDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ContextConfigure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ContextDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ManageConditions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ManageContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ManageResolverRelationships.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/RelationshipConfigure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/RequiredContext.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/RequiredContextDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ResolverRelationshipConfigure.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Form/ResolverRelationshipDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/ParamConverter/TempstoreConverter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Block/EntityView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/BlockPluginCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/BlockVariantInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/BlockVariantTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Condition/EntityBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Condition/NodeType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Deriver/EntityBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Deriver/EntityDeriverBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Deriver/EntityViewDeriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Deriver/TypedDataEntityRelationshipDeriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Deriver/TypedDataLanguageRelationshipDeriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Deriver/TypedDataPropertyDeriverBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Deriver/TypedDataRelationshipDeriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/DisplayVariant/BlockDisplayVariant.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/PluginWizardInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Relationship/TypedDataEntityRelationship.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Relationship/TypedDataLanguageRelationship.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/Relationship/TypedDataRelationship.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/RelationshipBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/RelationshipInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/RelationshipManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/RelationshipManagerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/VariantCollectionInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/VariantCollectionTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Plugin/VariantPluginCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Routing/Enhancer/WizardEnhancer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/SerializableTempstore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/SerializableTempstoreFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Testing/EntityCreationTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Tests/Wizard/CToolsWizardTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/TypedDataResolver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Wizard/EntityFormWizardBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Wizard/EntityFormWizardInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Wizard/FormWizardBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Wizard/FormWizardInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Wizard/WizardFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/src/Wizard/WizardFactoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/templates/ctools-wizard-trail-links.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/templates/ctools-wizard-trail.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/config/schema/ctools_wizard_test_config_entity.schema.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/ctools_wizard_test.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/ctools_wizard_test.links.action.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/ctools_wizard_test.links.menu.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/ctools_wizard_test.routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Entity/ExampleConfigEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/ExampleConfigEntityInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/ExampleConfigEntityListBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityDeleteForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityExistingForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityExternalForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityGeneralForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityOneForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/ExampleConfigEntityTwoForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/OneForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Form/TwoForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Wizard/EntityAddWizardTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Wizard/EntityEditWizardTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/modules/ctools_wizard_test/src/Wizard/WizardTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Kernel/RelationshipManagerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Kernel/RelationshipsTestBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Kernel/SerializableTempstoreTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Kernel/TypedDataEntityRelationshipPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Kernel/TypedDataLanguageRelationshipPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Kernel/TypedDataRelationshipPluginTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Kernel/TypedDataResolverTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Unit/BlockDisplayVariantTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Unit/BlockPluginCollectionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Unit/BlockVariantTraitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Unit/ContextMapperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/ctools/tests/src/Unit/VariantCollectionTraitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/config/install/pathauto.settings.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/config/optional/system.action.pathauto_update_alias_node.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/config/optional/system.action.pathauto_update_alias_user.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/config/schema/pathauto.schema.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/config/schema/pathauto_pattern.schema.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.libraries.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.links.action.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.links.task.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.permissions.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/pathauto.tokens.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasCleaner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasCleanerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasStorageHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasStorageHelperInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasTypeBatchUpdateInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasTypeInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasTypeManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasUniquifier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/AliasUniquifierInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Annotation/AliasType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Entity/PathautoPattern.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/EventSubscriber/PathautoSettingsCacheTag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Form/PathautoAdminDelete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Form/PathautoBulkUpdateForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Form/PathautoSettingsForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Form/PatternDisableForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Form/PatternEditForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Form/PatternEnableForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/MessengerInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/PathautoGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/PathautoGeneratorInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/PathautoItem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/PathautoPatternInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/PathautoPatternListBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/PathautoState.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/PathautoWidget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Plugin/Action/UpdateAction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Plugin/Deriver/EntityAliasTypeDeriver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Plugin/pathauto/AliasType/Broken.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Plugin/pathauto/AliasType/EntityAliasTypeBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Plugin/pathauto/AliasType/ForumAliasType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoBulkUpdateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoEnablingEntityTypesTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoLocaleTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoMassDeleteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoNodeWebTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoSettingsFormWebTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoTaxonomyWebTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoTestHelperTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoUiTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/Tests/PathautoUserWebTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/src/VerboseMessenger.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/tests/modules/pathauto_views_test/config/install/views.view.articles.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/tests/modules/pathauto_views_test/pathauto_views_test.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/tests/src/Kernel/PathautoKernelTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/tests/src/Kernel/PathautoTokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/pathauto/tests/src/Unit/VerboseMessengerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/css/jquery.treetable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/css/token.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/css/token.treetable.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/js/jquery.treetable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/js/token.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenAutocompleteController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenCacheController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenDevelController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Controller/TokenTreeController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Element/TokenTreeTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Plugin/Derivative/DevelLocalTask.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Routing/RouteSubscriber.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenBlockTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenCurrentPageTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenFieldUiTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenMenuTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenTestBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenTestTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenURLTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/TokenUserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/AutocompleteTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/HelpPageTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/TokenTreeTestTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Tests/Tree/TreeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenEntityMapper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenEntityMapperInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TokenServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TreeBuilder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/src/TreeBuilderInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/templates/token-tree-link.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/config/install/core.date_format.token_module_test.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/src/Controller/TokenTreeBrowseController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_module_test/token_module_test.tokens.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/config/install/core.entity_form_display.user.user.default.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/config/install/field.field.user.user.user_picture.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/config/install/field.storage.user.user_picture.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/modules/token_user_picture/token_user_picture.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/ArrayTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/BookTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/CommentTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/DateTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/EntityTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/FieldTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/FileTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/KernelTestBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/NodeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/RandomTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/TaxonomyTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/tests/src/Kernel/UnitTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.drush.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.libraries.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.links.task.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.pages.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/contrib/token/token.tokens.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/cardform/cardform.info.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/cardform/cardform.module" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/cardform/templates/node--game-card--teaser.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_assets.html.twig_IiwcLaeIisNwCBVRG2E-Rrodc/XiNX3hseKm4a8QGGvsYTXkhQ8Qn9-l14QjzY58OhFYI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block--local-actions-bloc_vf5aVcHh8yGAO6OWfZ3tPD5VM/HJwAiLmcUy6RY_OV4rJfFWiZSLJOkzK544IPP28TWQc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block--local-tasks-block._6Hl3m3npPm4mFJytIOwCeKZid/foOQmupW7sQ0N5vfvE7lgJJZn1GH-bsdshmhZ-vM8ao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block--system-branding-bl_VHzZFVYgGSRQ0CqTaRBlfar_u/EdBfbiPU2OrbC31E0XJDkRYgclvkktZ-5K6Cku5-ALw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block--system-menu-block._-kG8lRDVbhbE58ZcxoKqTdJ-3/nrQS6gfXMQ0VmFB89eitt1ZYombnYr3874zqqZQyyRY.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block--system-menu-block._2hNSCNK6Y2jmAWQaMH3vksp4p/Zvn2VC0RHgaHT5zQuy0FNiyywnbQv81wza-VaXrr9KI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block--system-messages-bl_xWGsemALvNz4CXfd2s7fyxiWn/t1Jhy37lJaM6Frg_jroBgV9hqg9uuvFS3c5fv3kE7YY.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block.html.twig_Fr-RckX7pcQwHmn7a48SZ9t41/SV-lIMewfJwI-ca3O1hrMiOYGlj9_G3Y91qoFmIZOpU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block.html.twig_RaxcD_Ozyj4rZR7jTJXMDcNYp/S-tDMPtHAhg6ZXybGNl7UPhNfoWd8NKBi3rTTXVtaws.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block.html.twig_SPyKCXAOAP3fcdrOgkAHxAZj_/8HkU0UjLDB7QkooNcklIZEwpuE4aqXIdwJYW4axDlfk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block.html.twig_i_4IWx7UnAVVlyNrYq3hxYqPC/cvXaMp8R0OyJWGeuBTz28KWHYcdaL1EqJMNYLyG1nyw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_block.html.twig_zcGobLavmqUz-gO-e3cic2uee/0V7E7diCsgdSRA6Cwja3PtjxtzrhNFzwYX_Eo_4A95I.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_blocks.html.twig_ZakuC2NOdTgvAj9LPuIP8pRPI/8l7EsmYFDIbmWkMkhuyZSOb9j1DrEIiAYabejwBHLH8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_breadcrumb.html.twig_Y1A2CIEvSzsgaPavFdpN0OkUI/7fQXFxTaiE4n_GpdBMg6GZR5-nSkyV17goSH5bPHuso.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_cache.html.twig_dJV0lAuQD-uXmxgAFq-FOpUtH/EgvhFuEnnzVdUOpaSbiPV6zGrRdgjqNSzWf2g2Zzw9w.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_checkboxes.html.twig_x12ldIEhlJrKq4RJKYDKOB3iM/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_checkboxes.html.twig_x12ldIEhlJrKq4RJKYDKOB3iM/JjB4KcaU8_oA9eLqFQs_XUs5IOzRoieWwi0dz3AK4IU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_confirm-form.html.twig_62QgijXZ9-F-hkJPmp_3okZRg/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_confirm-form.html.twig_62QgijXZ9-F-hkJPmp_3okZRg/k1wFc-ybNngF0cLXUlNHuOGxh2E_18GR3otBhb3P_O8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_container.html.twig_rGA4nvOvKW6MHGsjDXGH-nS05/QgNCjJGmSjNnY9HigFcq0VE-1YOPUBKroMCAYaFoo1E.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_database.html.twig_OAf05aXuM6gMb7PRCLx1ptgip/RVm65D1zb1wX6QG6WR8YzhsGp0nuLORTReuNvQg90nI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_details.html.twig_hCe68zykvXBH7e2GY2M-jAPYX/kSskFx2W_eYJAaFgLjDnLrBYbv8hhTyG9tApKgq80ho.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_devel.html.twig_zwwplYCg27eg2heXjmJSUxLvQ/S9Xbqf2Q-gQPy8YZoEEGw_zkEH33ObM5OYVt6fFTrts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_dropbutton-wrapper.html.t_Q2x6fWZw7teImeCnvSEI-TouA/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_dropbutton-wrapper.html.t_Q2x6fWZw7teImeCnvSEI-TouA/iHlSdamcua6AdAhf49vSomvDE3KWrtfUAY799jN0t6A.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_drupal.html.twig_cKfcrpRvfiz2DBGyLPmlWYLqU/VCExGfkjwuxUL3HrtPJrsOw7sl7H7_P36LELwLP25fs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_extensions.html.twig_l7yMhjdgb8mPGO8rfkBc8xsGY/SQcsPnhJx8hN12KlE5f4VDpC27ow45nGc5Dd222EmpI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_feed-icon.html.twig_gkcglxjUfMb0wOHk6cFRRNvze/O1jFz94j9ixFz4OHpmlT_PLAKQXokyk2_iIfn3KY2X0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field--node--created.html_2JFb6Sf2-HYvmTzhx5G92gy8z/uIrFOYlJKtyzcaLfdfVP_pUvMc57Xda2FYyU2NfCHxs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field--node--title.html.t_y4VtPzslaTbt9Lo2TLhqfUdZX/zWhbhL6I3KC6vnrj-gLWdL_UeHWGS8it0FAehQiUcT8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field--node--uid.html.twi_wkqmfu6K3PAHopZEEc0wM_6wZ/h_yriaD7cpBBQeW4n5hX--Yn2Qzt4NaGZo3W689NmJw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field--text-long.html.twi_W_vYRqZY274cdRHNsWjz_sARV/VPUxkbTJFFoeNpIp732O0pdVlrZA19UUPEghGDyLGQU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field--text-with-summary._GZ_hTPhobztWj2rww4HAQYvB5/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field--text-with-summary._GZ_hTPhobztWj2rww4HAQYvB5/U4P4RlAgdxvjZQidCBVL9oo-807SLlkBDlV8zr1drFI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field--text.html.twig_QRokRSh6FCHqQzooG_1XDDBRv/r5CqM3pfLBurribSuMievXHzjQnmMfWUmjnShoimctU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field-multiple-value-form_3NHZ3wLNBURqzZYXmdn9wuTLZ/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field-multiple-value-form_3NHZ3wLNBURqzZYXmdn9wuTLZ/b82w23FTWHpASDD3-Da_2JdU62Vdy4q3IvVM9BCt07s.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field-ui-table.html.twig_EFiQVPz4fL3vymbxSwyMWX9Th/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field-ui-table.html.twig_EFiQVPz4fL3vymbxSwyMWX9Th/I4_f8z8jIWxfKLLlEy-WgRapURZ71RkB5zfv4lSg980.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field.html.twig_m958vBEP7RFp8FOWOAaB52taQ/oHCxKdHTZgfWeo_jGgcSIfK4EfHfb7SZWdYr6E-SPi0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_field.html.twig_sg0aNDZNrB2qJXZQKh1ByVo-x/sIwu1qbUx6cBPd-Kp-xFSWSX60_CJyKpSYi2-SSMj4I.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_fieldset.html.twig_2hzG1O0t--8ltCCcCvmYh1oA4/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_fieldset.html.twig_2hzG1O0t--8ltCCcCvmYh1oA4/yEtmaaV6z5oWO0N9uCsH2pPcNbJRD2Zb9nSDFaiI7aE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-link.html.twig_ZWJfLIscOc8J6Z3pg0eKX_CuJ/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-link.html.twig_ZWJfLIscOc8J6Z3pg0eKX_CuJ/rNSTvwbPFhNwAxKjdWJZ4Gl1Eevl9eXLHP4tNPhfxFE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-managed-file.html.tw_skzMYA4MiE-zZlzhWBJvZ-4lp/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-managed-file.html.tw_skzMYA4MiE-zZlzhWBJvZ-4lp/sco8iqGHyr4SveTeaGcDyu7l861mtbHUyfyFKcNkzVQ.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-upload-help.html.twi_Gq2prMjKFIMt7SpuADnBtqqcS/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-upload-help.html.twi_Gq2prMjKFIMt7SpuADnBtqqcS/HeNbC0pXYTd5excwGdISu8Ce9kbaF1gFvKgIsWh8AQI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-widget-multiple.html_LjDsQ-nbyRSN2OhAWd3Td6oVI/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_file-widget-multiple.html_LjDsQ-nbyRSN2OhAWd3Td6oVI/Q2ayITE-0MafZZZyWAYKRf7jnidfYfKmja2M1AIpuAQ.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_filter-guidelines.html.tw_iK6wo6mSbXjFQXqfGSSmHD-KY/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_filter-guidelines.html.tw_iK6wo6mSbXjFQXqfGSSmHD-KY/GrfiKxoEfABfEeQfav8a5SbOyjCFuol4pxJLcRdQ1Z4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_filter-tips.html.twig_LZm1ZyAnPFbBnM671qzVcSUc-/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_filter-tips.html.twig_LZm1ZyAnPFbBnM671qzVcSUc-/MJGfHAkf4YCZe6nI495MSLaSI_j__Zdkfrn3dFjTA0w.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_form-element-label.html.t_pJf6J5pb9I2Lkw5HSTBuud-Xo/dZQ4MKF6Wu5BsZaMCcoMvRJL-BxTFMlFpLHRpxrU3Ng.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_form-element.html.twig_v8pTkvH27dhnfg-MayT3NySzh/Ry0F8VSlRyLFjWy97DVOXsz4Lkk0_r2ZYuaZvspf1tE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_form.html.twig_AOFewVBrBavFRBYO6GLwoKnyT/tY9NnLMdvXJtgIZAYO7WHkGvon_W0CYMB7-t9rJO9Ec.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_forms.html.twig_fiZHrvYSm4qVDhwh7E7UEkv8M/5uMMPo02lW3g5NXLUZwQ9IDlsh7sOipNEwJ6tsoV7GA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_html.html.twig_auV1P9PGrt9ioKH_me6HA-bRM/9cYRh7WHs7Ry-VK4tXzkwiLCqiX5lII8QlAznCVdFbE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-formatter.html.twig_gBoYNXEddPxc2llMXppcV_I8V/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-formatter.html.twig_gBoYNXEddPxc2llMXppcV_I8V/LduLx-RXKMB2vVVYkgIrQ_1Dmg5fle0lGDGDFnTE4AU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-resize-summary.html_v0Dbqg7uQfUWivT_eu0YwNuv5/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-resize-summary.html_v0Dbqg7uQfUWivT_eu0YwNuv5/YIwKveuhWV-U8uVlhkvhUG3kkv3SbFxdeIJRIF4qSXk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-scale-summary.html._E96SEGAHfjz9fx8WMp9BXlfYX/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-scale-summary.html._E96SEGAHfjz9fx8WMp9BXlfYX/uaoVSqob8aQxHSXCVP_KrZ_7eQhabKucmiEnSDLHkt4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-style-preview.html._Fdw81h2LUujn5i7aecC-z7GXz/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-style-preview.html._Fdw81h2LUujn5i7aecC-z7GXz/SWeA6yhzrv3FX5SOVopcCt40EJtMtrBDinEgu1XsuLc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-style.html.twig_-Db3g8s9uMuwzypNg8s_J-Q3Z/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-style.html.twig_-Db3g8s9uMuwzypNg8s_J-Q3Z/nQssFSd-LpnQ-NwKoJXB_gQweIYzRbwuz38wkhSoXHE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-widget.html.twig_jNuSj2GsE28r0k9UxM8w6EOFv/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-widget.html.twig_jNuSj2GsE28r0k9UxM8w6EOFv/zwz2FoCpLmpjaiJpnIZQJfTgnp8Weyuuh_Vz_GWi_-0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-widget.html.twig_lrwPV2IqlT3RRFyw9ciyPxVUr/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image-widget.html.twig_lrwPV2IqlT3RRFyw9ciyPxVUr/TTP1MhEekT3v25cKOjidjig99VsSwYRtwVOtzhC87IA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_image.html.twig_lHLldx4uVutA7uFI5simEcu1k/V8jNUSc8U7q38YldlbPEJQI8kENuhMTzxsVqRgF9950.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_imagefield-slideshow.html_wKiF7NbsOX2iupXGZSMlcnJ5s/Pi4_qQfG5wmEtB3KITZz5Ba89SCrNUtD2E1GCTv-s5M.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_inline-template_T-xhV_TNNJ3iO7wKK2rml8iOw/C2RDX9NlFxHStKKODJzqD2uJYuhAMiltgXWOaFiZXEU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_inline-template_f9Mjrl2yf8Rq2zAr0n4lhwmFC/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_inline-template_f9Mjrl2yf8Rq2zAr0n4lhwmFC/4ZyjwwJYbWSAXLXcItIQeEpLuVFA3FizX_2Xmwd8eHo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_inline-template_jpJj8qHokLlVrKAYf8Ec20K3I/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_inline-template_jpJj8qHokLlVrKAYf8Ec20K3I/IbRI4cJ1fFE_UXWyMLmqhkUkxiHVEiGPMTKQd9lRrG8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_input.html.twig_nu4nUvCyfsdOCBqSmm1kVBBGM/QyseM_ocbMiD1Co3pmVoulIWXerB8-juDUuVg5AGm-s.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_item-list.html.twig_KuWp4fGPANoOj-Xqy2qZsn04p/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_item-list.html.twig_KuWp4fGPANoOj-Xqy2qZsn04p/1q91_uv58Tk0sH_11HjnSmN7MB9vnN4DFleYxLyvBmQ.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_links--node.html.twig_j5EP9r6IG0Qcnql8ih44A-1YR/1Xi3VhFePGlhmkFsc_b9efnveBALGgzuoFoavEN8Fpg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_links.html.twig_o8pfACuQ1QLtQJosM2yaTiGYc/JGO2hi0QneczRG1WM9WWdUNFMXQZlD8FQRpozbip_Go.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_menu--toolbar.html.twig_6YpMZvKQCNJsHa0BILTLAbEa7/XPlxECnj73xBdLdhz_CQi7yBBBVoZrh2vO0VKWXVD6M.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_menu-local-action.html.tw_xEljcPrYQWQONEzdfzPL2Wn5R/0x_4XNY_Itv9_UdCYIF8kKDBEDn77A_-VM9ltiUDou8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_menu-local-task.html.twig_PmQVhu675aGtfGOS0OLI4i21L/0xujlyqZdIRNQajg-IiC0Zr8prkRracmpRMcK0iK8p0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_menu-local-tasks.html.twi_M5IXt4O061ecBwfuw6SBozlKq/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_menu-local-tasks.html.twi_M5IXt4O061ecBwfuw6SBozlKq/sKnDeffYLxflK2P-EeYt6bSly_HapHAyc6pI3cuBQpA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_menu-local-tasks.html.twi_kvfcGdCCYU9G2iwNNJcQb4VCu/aCZhjJYS82vnUb_P_u9akT7D1lqO9mw5Vub2jqTTlsQ.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_menu.html.twig_FXAymnSX4ShpbmrgBYyQSp9Ec/aS_HfNQLRLVw-ShDw6y5xuQJMnoN8-arrpOaKz74oVI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_node-add-list.html.twig_pG_hqq-RuhEcPUsohcKj8twH8/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_node-add-list.html.twig_pG_hqq-RuhEcPUsohcKj8twH8/pCljUAfPAUCwpZRJn1l2rcNu6xPTd84KQyH3kdExyvc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_node-edit-form.html.twig_xfkG3rMumE1ke2l8Mli_KewOw/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_node-edit-form.html.twig_xfkG3rMumE1ke2l8Mli_KewOw/KeTqrg_sFNaLT4aIo7_0pn9xpzlgL86xb9wpx19mnHw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_node.html.twig_oK9Ke77qM9qlAfI6XmSs16bGK/cA3RSO8VmP3R0bCFfflwDQg-hewU1XpA2p_-qD7O3fc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_page-title.html.twig_Kj22JzrbuWqFmqffbsmZOndRV/0Od0-kYB3hnvece4WHEvsjk7Y6S2z5tTZcY8AxQ9GL4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_page-title.html.twig_NrdrWV1ihzTUqMwc9BUTvFitv/MWUu6mzIcz3q1G0iJAKTuC7SjVIqkVjqNhAEZev5IZM.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_page-title.html.twig_TskQpAORYjw3dd61w7txq_oo2/IWnYmgozfTwdUO-2-ZPr51_aj60qTgPsGy0VpS34kkI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_page.html.twig_-0_Jgp9K16lhbgLbILAHphj3S/qK2Zqc8UX46rsh2HyvyVWH1gyok6EZXiFl74LA_2hXk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_page.html.twig_D2euRZiNDQIdZGD4ibcVaNQm2/nbudnJ2l_gQgz7_k_2p1UR-wc44Qs867BA4IuZBuT1c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_pager.html.twig_vNmnGk1ROeO1DML_icv0sf_Zs/x8_hxaJRMv1fzO_8HJDnxD-swwflq4MURguxSPoN3rY.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_paragraph.html.twig_nMMORM0rCZWgAhsiGlHL7Klvu/hSunkPa5pLRxyKiLuUhPGrjEEapRQCyeG-PKXM69ykY.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_paragraphs-dropbutton-wra_mjpv8vaz1T9L9kfzl9Dd9nqQN/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_paragraphs-dropbutton-wra_mjpv8vaz1T9L9kfzl9Dd9nqQN/IpFemUc8fspe2qgz_CtrP3fzUIl2rTlbYxnfYwcWhp4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_performance_timing.html.t_xg0OE8pV31qHZ4bIgPsuFz0um/7PNAHtkoASEWTzFnOQz5U4vsU7Mwin5-pqe8kL4oXGQ.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_php_config.html.twig_sBGnxoHPqKG-dCOhFk0eCEr7g/AoV_fQJipgKaN1Du8Ugav64HeUXNAX_F4ikSZFAHpKY.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_radios.html.twig_NYJZ8Gm7f-EeqNLPeN00ZkT9u/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_radios.html.twig_NYJZ8Gm7f-EeqNLPeN00ZkT9u/KntDggHhYxpAwR8qeMXJ2npFqN-9l_N-SMdCBM5926w.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_region--header.html.twig_XaswXEoFF0spSQKEfy3J7RwPG/-oI5nT7PoECcuI_1h2PW3OKGLiib7A2hNB7GDckpwhs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_region.html.twig_Aa3bST0wfhx6h3PnUztZ5A20I/-uujEaV1Eu2HTZiVhKR0LEBy3SQxb9QLJlPXnFkBbHU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_region.html.twig_MR3fMmw95qbpuDFvbyuI9QHlG/d3Yyq_AdmklZCpYdsPyzQPyXNkUksDtHueeRQH0L10Y.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_request.html.twig_7y69jqeQt9ET248nPoCIba7Tn/-N3XjUNooxomc3ssUP7sA9AWZIPZm4bObIPLdmnXrSc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_select.html.twig_dxJ47h5520IvTASPgOwa279CA/O191d9BCASB6B9vBt9P8W_2tgmNqfubygR9kPHA0AJg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_status-messages.html.twig_3IhisVoQLOYIb64NBegMDuHJs/uwroZIOq9jgJDAPy6yq7CRv-TsQfNi2gz0FB4NyDKmE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_status-messages.html.twig_RG51Ljde5wQYIJ9s8E-ezmdS1/RKx1U4YH8CxSR8jM_Lem7-D8dJteJq3UGQVKxo0rJwo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_status-messages.html.twig_fLsuOyIGDRME4OcsE1gdBgFJU/8X6fcTXbRYgWsso-0dFpfigv5DPgHv1jN2Fz9sicpzY.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_system-modules-details.ht_c7xBZ1YDRuVHwrxLYkn2CsNi4/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_system-modules-details.ht_c7xBZ1YDRuVHwrxLYkn2CsNi4/cUjMGN5uwynIgoYeG_0CCsnf_G6-QKe6tbhxy563Wfw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_table.html.twig_2msbT7k4I_6Bixl_utAHPC2sA/7ch6gIIP7OZGPze079CIdnFyKAbSCwOceZAz9052Ot4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_table.html.twig_WzfUyz-QigqQFjRyrFjCNRCJk/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_table.html.twig_WzfUyz-QigqQFjRyrFjCNRCJk/EVYeoLKa2QhT0ToValvkL565nFfmS_EyWpVvCqBHtRE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_tablesort-indicator.html._u4eRyUplab-BWT3GrjYLLhsun/wNEUCNFMi98qn8WDbLm9nzevAPPnwPxLq3Dy8CLcwrI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_text-format-wrapper.html._nPEiiPGLy2-3DciusERf4z8FD/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_text-format-wrapper.html._nPEiiPGLy2-3DciusERf4z8FD/dJI3LwIy3IO7iE1wi4bjzQKBenj0aFYEV5eEAVI2Bxk.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_textarea.html.twig_VvjJoqTxxeatHP4Vz7HZoT-Hn/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_textarea.html.twig_VvjJoqTxxeatHP4Vz7HZoT-Hn/qrEUxIj48oAHDnpxLvczutELfi5EM0Z_LbZb2rcZVek.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_time.html.twig_znTfVXjt8oiq-ZAA9r-EnrDyu/CRAd3FTFyNWx0SupgC9bItPM9BjTS9SHzLoxJ829gEA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_toolbar.html.twig_Wxd1UILMniLV5mvcR0Q8QHOdG/ogVW3ECprkhvrBLkID6dTslLS8XI85HOHZZoRW7O6lM.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_user.html.twig_-ZMAhkjKma-xShuG95UqSfUPT/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_user.html.twig_-ZMAhkjKma-xShuG95UqSfUPT/uahE4CySmzJzpVNtXMVUJQ5PKRGIy4EXFqSMRLKKV9U.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_user.html.twig_U5wVwVuSAtoJZSVLwgeu8pFGL/ew1MrrGN4wErMVUNxjkTF4Ilu20tj5kaovy3z2unWeE.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_username.html.twig_WbBPt6vsO8FVXpFQWBnNKwF44/NfIMWqz-8K7YxOAIsaAuqmE54hIyDfEyMr3G84uzsoU.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-exposed-form.html.t_VXKGOnrBDF_cwqvOYnlx8K7d8/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-exposed-form.html.t_VXKGOnrBDF_cwqvOYnlx8K7d8/jCwEuXd75hJzMdhi1NmnV3iDPgtftDb6hdACR_4MxhQ.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-view-field.html.twi_fw2d3T9RMv7QxNghhETc8H8dM/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-view-field.html.twi_fw2d3T9RMv7QxNghhETc8H8dM/zQbnESg5_MyDRJk20lHwQ7MkWVBgP7Y7cES_he5LTfg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-view-table.html.twi_wXxS8qWAoRxUFYYPHFDMGh2_8/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-view-table.html.twi_wXxS8qWAoRxUFYYPHFDMGh2_8/MzcMooc_9RkI8nJxoLYNchuvayiayRQ4iWjmytJEkMA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-view-unformatted.ht_HlV8BDYCWa20UfeQA6LDkwDuV/8T9Y_zk6fY_B4knIyh7QX81_TEk3t3Dnd6yvi5w_68k.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views-view.html.twig_6Bdxk6MO2zLUHAeZL22CtRQ9I/y1NAciwFxyQteDxoN5VtM7znnP4m4gvsjOI8-T1vijc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_views.html.twig_NfPXBp5hYh3RE3hhn495KxGeV/HXBA7JP5VV4MSFaMGKhp-_ZGJpgK_xDguR7TtenGINM.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_webprofiler_loader.html.t_uR8mKOzB4htRIyz2heMVTXB02/vihob2-Y6Sx3pd4hHbbjvEV-iVFMZjd4jF01s2yCU50.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_webprofiler_toolbar.css.t_q8mwH0oOKdPeI0iFEifU9fRzp/NPF2Zf0M7jyREDO0b6eL2OvkYC0o1ntNiedr6KMcM0s.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sites/default/files/php/twig/594e65269b505_webprofiler_toolbar.html._zT0vGwd1-VvRme-9cBaYsBIje/HzwTAGLB-udeSY4mhrqDl67LM8Mds2tWKS3G30obRiY.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/custom/toto/toto.info.yml" afterPath="$PROJECT_DIR$/themes/custom/toto/toto.info.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/custom/toto/toto.theme" afterPath="$PROJECT_DIR$/themes/custom/toto/toto.theme" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +422,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="680">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="27" column="75" lean-forward="false" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -24,10 +455,14 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -44,6 +479,7 @@
     <option name="width" value="3872" />
     <option name="height" value="1989" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -59,8 +495,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -75,11 +509,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,6 +530,75 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -104,32 +610,49 @@
       <option name="presentableId" value="Default" />
       <updated>1498305015342</updated>
       <workItem from="1498305016532" duration="657000" />
+      <workItem from="1498591925985" duration="2467000" />
+      <workItem from="1498653909831" duration="2617000" />
+      <workItem from="1498749271264" duration="176000" />
     </task>
+    <task id="LOCAL-00001" summary="mon commit de foufou">
+      <created>1498592196946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1498592196946</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mon commit de dbb">
+      <created>1498654033444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1498654033444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="657000" />
+    <option name="totallyTimeSpent" value="5917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="1989" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -139,6 +662,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="mon commit de foufou" />
+    <MESSAGE value="mon commit de dbb" />
+    <MESSAGE value="Commit de Jeudi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit de Jeudi" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -146,8 +677,71 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="680">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="27" column="75" lean-forward="true" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="92" column="2" lean-forward="false" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="27" column="75" lean-forward="false" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
           <folding />
         </state>
       </provider>

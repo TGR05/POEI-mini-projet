@@ -1,0 +1,3 @@
+<?php
+
+function cardform_form_node_form_alter() {};
