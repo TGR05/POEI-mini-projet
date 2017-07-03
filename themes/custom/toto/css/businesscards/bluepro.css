@@ -4,53 +4,49 @@
   font-size: 20px;
   background-image: url(../../images/cardmodels/businesscards/j7x6bzko.png);
 }
-#displayCompany {
-	position: relative;
-	top: 40px;
-	left: 50px;
-}
-#displayIdentity {
-	position: relative;
-	top: 175px;
-	left: 150px;
-}
-#displayFirstName {
-  font-size: 25px;
-}
-#displayLastName {
-  font-size: 25px;
-}
-#displayProTitle {
-	position: relative;
-  color: black;
-  font-size: 18px;
-	top: 175px;
-	left: 220px;
-}
-#displayAddress {
-	position: relative;
-  font-size: 15px;
-	top: 275px;
-	left: 50px;
-	width: 225px;
-}
-#displayPhoneNumber {
-	position: relative;
-  font-size: 15px;
-  color: black;
-	top: 230px;
-	left: 400px;
-}
-#displayEmail {
-	position: relative;
-  font-size: 15px;
-  color: black;
-	top: 250px;
-	left: 250px;
-}
-#displayWebsite {
-	position: relative;
-  color: black;
-	top: -73px;
-	left: 0px;
-}
+	#displayCompany {
+		position: float;
+		top: 40px;
+		left: 50px;
+	}
+	#displayIdentity {
+		position: float;
+		top: 175px;
+		left: 150px;
+	}
+		#displayFirstName {
+  		font-size: 25px;
+		}
+		#displayLastName {
+ 		 font-size: 25px;
+		}
+	#displayProTitle {
+		position: float;
+ 	 font-size: 18px;
+		top: 175px;
+		left: 220px;
+	}
+	#displayAddress {
+		position: float;
+ 	 font-size: 15px;
+		top: 275px;
+		left: 50px;
+		width: 225px;
+	}
+	#displayPhoneNumber {
+		position: float;
+  	font-size: 15px;
+		top: 230px;
+		left: 400px;
+	}
+	#displayEmail {
+		position: relative;
+ 	 font-size: 15px;
+		top: 250px;
+		left: 200px;
+	}
+	#displayWebsite {
+		position: float;
+		top: -73px;
+		left: 0px;
+	}

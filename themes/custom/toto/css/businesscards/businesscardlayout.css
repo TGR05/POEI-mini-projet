@@ -6,11 +6,15 @@
 
 #businesscardlayout {
 	min-height:450px;
-	background-color:#FFC;
+    max-height:450px;
+    background-color:#FFC;
 	padding:10px;
 	border:1px solid #FF9;
 	min-width: 600px;
-	background-repeat: no-repeat;
+    max-width: 600px;
+    background-repeat: no-repeat;
 	background-size: 100% 100%;
-	/*text-align: center;*/
+	text-align: center;
+    position: relative;
 }
+

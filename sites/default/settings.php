@@ -764,14 +764,18 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'user3_2',
-  'username' => 'user3',
-  'password' => 'user3-0317',
+  'database' => 'db',
+  'username' => 'dbusr',
+  'password' => 'dbpwd',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => 'mysql',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_ICrRyYCsLGrepxL5MFUkO9Y-cet_1ijIrx7AbijY9enKjwof6NZqTDbGVPngLexLB9x4nFkvOA/sync';
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);

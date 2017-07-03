@@ -4,6 +4,8 @@ use Drupal\Core\Form\FormStateInterface;
 
 /* function cardform_form_node_form_alter() {}; */
 
+/* function cardform_node_edit_form_alter() {}; */
+
 /* function cardform_theme($existing, $type, $theme, $path) {
   return array(
     'cardform' => array(
@@ -49,7 +51,21 @@ function cardform_theme($existing, $type, $theme, $path) {
 			'lastname' => NULL,
 			'address' => NULL,
 			'num' => NULL,
-			'email' => NULL,		
+			'email' => NULL,		 
+		),
+    ),
+  );
+  return array(
+    'business_cards' => array(
+		'template' => 'node-edit-form.html.twig',
+		'variables' => array(
+			'company' => NULL, 
+			'job' => NULL,
+			'name' => NULL,
+			'lastname' => NULL,
+			'address' => NULL,
+			'num' => NULL,
+			'email' => NULL,		 
 		),
     ),
   );
@@ -81,4 +97,28 @@ function multivaluefield_theme_suggestions_multivaluefield($variables) {
 kint($node);
 exit;
 } */
+
+/* function cardform_theme($existing, $type, $theme, $path) {
+  return array(
+    'business_cards' => array(
+		'template' => 'node-edit-form.html.twig',
+		'variables' => array(
+			'company' => NULL, 
+			'job' => NULL,
+			'name' => NULL,
+			'lastname' => NULL,
+			'address' => NULL,
+			'num' => NULL,
+			'email' => NULL,		 
+		),
+    ),
+  );
+} */
+
+function cardform_form_node_form_alter(&$form, $form_state, $form_id) {
+	kint($form_id);
+	kint($form["#id"]);
+
+}
+
 
