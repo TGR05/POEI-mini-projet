@@ -86,7 +86,7 @@
  * );
  * @endcode
  */
- $databases = array();
+
 
 /**
  * Customizing database settings.
@@ -764,11 +764,11 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'db',
-  'username' => 'dbusr',
-  'password' => 'dbpwd',
+  'database' => 'user3_2',
+  'username' => 'user3',
+  'password' => 'user3-0317',
   'prefix' => '',
-  'host' => 'mysql',
+  'host' => 'localhost',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
