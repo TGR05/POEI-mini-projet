@@ -1,20 +1,51 @@
+{#
+/**
+ * this tpl is used in the card edit form.
+ *
+ *
+ * find this tpl in modules/custom/cardfactory/templates
+ *
+ *
+ */
+ #}
 
+ 
+ 
+ 
 
-<article{{ attributes }}>
+ <article{{ attributes }}>
 
-{{ title }}
+ {{ title }}
+ 
+ {{ company }}
+ {{ job }}
+ {{ name }}
+ {{ lastname }}
+ {{ address }}
+ {{ num }}
+ {{ email }}
+ 
+ </article>
+ 
+ 
 
-{{ company }}
-{{ job }}
-{{ name }}
-{{ lastname }}
-{{ address }}
-{{ num }}
-{{ email }}
-
-</article>
-
-
+ {#
+/** 
+ *<article{{ attributes }}>
+ *
+ *{{ content.field_company }}
+ *{{ content.field_job }}
+ *{{ content.field_first_name }}
+ *{{ content.field_name }}
+ *{{ content.field_address }}
+ *{{ content.field_taxono }}
+ *{{ content.field_mail }}
+ *{{ content.field_num }}
+ *
+ *</article>
+ *
+ */
+ #}
 
 
 

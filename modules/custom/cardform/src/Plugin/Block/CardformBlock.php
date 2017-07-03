@@ -46,7 +46,7 @@ class CardformBlock extends BlockBase {
 			'#job' => 'job',
 			'#name' => 'name',
 			'#lastname' => 'lastname',
-			'#address' => 'field_adress',
+			'#address' => $field_adress,
 			'#num' => 'num',
 			'#email' => 'email',
     );

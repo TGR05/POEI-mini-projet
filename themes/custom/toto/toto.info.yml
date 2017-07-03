@@ -13,7 +13,7 @@
 # changes.
 name: toto
 type: theme
-base theme: bartik
+base theme: classy
 description: 'My custom theme, mainly created to set 4 regions on the welcome page and on the login page'
 package: Core
 # version: VERSION
