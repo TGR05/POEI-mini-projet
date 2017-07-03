@@ -61,6 +61,13 @@ global-styling:
       css/colors.css: {}
       css/print.css: { media: print }
 
+card-styling:
+  version: VERSION
+  css:
+    businesscards:
+      css/businesscards/businesscardlayout.css: {}
+      css/businesscards/bluepro.css: {}
+
 messages:
   version: VERSION
   css:
