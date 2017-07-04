@@ -1,6 +1,6 @@
 {#
 /**
- * this tpl is used in the card edit form.
+ * this tpl is used in the card add form.
  *
  *
  * find this tpl in modules/custom/cardfactory/templates
@@ -11,41 +11,29 @@
 
  
  
- 
+ {{ attach_library('toto/card-styling') }}
 
  <article{{ attributes }}>
+ 
+<div class="">
+  <div id="businesscardlayout">
+  {{ title }}
+  <div id="displayCompany"> {{ company }}</div>
+	<div id="displayIdentity">
+		<span id="displayFirstName">{{ name }}</span>
+		<span id="displayLastName">{{ lastname }}</span>
+	</div>
+	<span id="displayJobTitle">{{ job }}</span>
+	<div id="displayAddress">{{ address }}</div>
+	<span id="displayEmail">{{ email }}</span>
+    <span id="displayWebsite"></span>
+    <span id="displayPhoneNumber">{{ num }}</span>
+  </div>
+</div>
 
- {{ title }}
- 
- {{ company }}
- {{ job }}
- {{ name }}
- {{ lastname }}
- {{ address }}
- {{ num }}
- {{ email }}
- 
  </article>
  
  
-
- {#
-/** 
- *<article{{ attributes }}>
- *
- *{{ content.field_company }}
- *{{ content.field_job }}
- *{{ content.field_first_name }}
- *{{ content.field_name }}
- *{{ content.field_address }}
- *{{ content.field_taxono }}
- *{{ content.field_mail }}
- *{{ content.field_num }}
- *
- *</article>
- *
- */
- #}
 
 
 
@@ -99,59 +87,6 @@
 
 {#
 /**
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *{{ title_prefix }}
- *  {% if not page %}
- *    <h2{{ title_attributes }}>
- *      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
- *    </h2>
- *  {% endif %}
- *  {{ title_suffix }}
- *
- *  {% if display_submitted %}
- *    <footer>
- *      {{ author_picture }}
- *      <div{{ author_attributes }}>
- *        {% trans %}Submitted by COUCOU{{ author_name }} on {{ date }}{% endtrans %}
- *        {{ metadata }}
- *      </div>
- *    </footer>
- * {% endif %}
- *
- *  <div{{ content_attributes }}>
- *    {{ content }}
- *  </div>
- *
- *
- *
- *
  *
  *
  *

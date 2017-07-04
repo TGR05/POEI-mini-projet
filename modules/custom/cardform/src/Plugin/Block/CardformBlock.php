@@ -16,27 +16,6 @@ use Drupal\Core\Block\BlockBase;
  * )
  */
 class CardformBlock extends BlockBase {
-
- /*  protected function blockAccess(AccountInterface $account) {
-    return AccessResult::allowedIfHasPermission($account, 'search content');
-  }
-
-  public function build() {
-    return \Drupal::formBuilder()->getForm('Drupal\search\Form\SearchBlockForm');
-  }
- */
- 
-/*    public function build() {
-    return array(
-      '#markup' => $this->t('Hello, World!'),
-    );
-	
-	return array(
-      '#theme' => 'node--business-cards--full',
-    );
-	
-	
-  } */
   
   public function build() {
   return array(
@@ -46,11 +25,9 @@ class CardformBlock extends BlockBase {
 			'#job' => 'job',
 			'#name' => 'name',
 			'#lastname' => 'lastname',
-			'#address' => $field_adress,
+			'#address' => 'address',
 			'#num' => 'num',
 			'#email' => 'email',
     );
-  }
- 
- 
+  } 
 }
