@@ -16,18 +16,18 @@ use Drupal\Core\Block\BlockBase;
  * )
  */
 class CardformBlock extends BlockBase {
-  
+
   public function build() {
   return array(
-		'#title' => 'PREVIEW',
+		'#title' => '',
 		'#theme' => 'business_cards',
-			'#company' => 'company',
-			'#job' => 'job',
-			'#name' => 'name',
-			'#lastname' => 'lastname',
-			'#address' => 'address',
-			'#num' => 'num',
-			'#email' => 'email',
+			'#company' => '',
+			'#job' => '',
+			'#name' => '',
+			'#lastname' => '',
+			'#address' => '',
+			'#num' => '',
+			'#email' => '',
     );
-  } 
+  }
 }

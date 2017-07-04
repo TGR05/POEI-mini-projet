@@ -11,27 +11,13 @@ function cardform_theme($existing, $type, $theme, $path) {
     'business_cards' => array(
 		'template' => 'node--business-cards--full',
 		'variables' => array(
-			'company' => NULL, 
+			'company' => NULL,
 			'job' => NULL,
 			'name' => NULL,
 			'lastname' => NULL,
 			'address' => NULL,
 			'num' => NULL,
-			'email' => NULL,		 
-		),
-    ),
-  );
-  return array(
-    'business_cards' => array(
-		'template' => 'node-edit-form.html.twig',
-		'variables' => array(
-			'company' => NULL, 
-			'job' => NULL,
-			'name' => NULL,
-			'lastname' => NULL,
-			'address' => NULL,
-			'num' => NULL,
-			'email' => NULL,		 
+			'email' => NULL,
 		),
     ),
   );
@@ -51,9 +37,5 @@ function multivaluefield_theme_suggestions_multivaluefield($variables) {
 }
 
 function cardform_form_node_form_alter(&$form, $form_state, $form_id) {
-	kint($form_id);
-	kint($form["#id"]);
 
 }
-
-

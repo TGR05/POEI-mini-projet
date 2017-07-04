@@ -2,8 +2,7 @@ name: Card Form
 description: Provides a customable form (in BO) wich implement ajax, to create game card with a preview.
 package: Custom
 type: module
-
+libraries:
+  - cardform/card-styling
 core: '8.x'
 version: '8.3.4'
-
-
