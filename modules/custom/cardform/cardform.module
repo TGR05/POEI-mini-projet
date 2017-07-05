@@ -35,13 +35,16 @@ function cardform_theme($existing, $type, $theme, $path) {
         'game_cards' => array(
             'template' => 'node--game-cards--full',
             'variables' => array(
-                'company' => NULL,
-                'job' => NULL,
-                'name' => NULL,
-                'lastname' => NULL,
-                'address' => NULL,
-                'num' => NULL,
-                'email' => NULL,
+                'cardname' => NULL,
+                'carac1' => NULL,
+                'carac2' => NULL,
+                'carac3' => NULL,
+                'carac4' => NULL,
+                'skill' => NULL,
+                'question' => NULL,
+                'answer' => NULL,
+                'gameimg' => NULL,
+                'behindimg' => NULL,
             ),
         ),
   );

@@ -34,3 +34,21 @@ postalcards:
     - core/jquery.form
     - core/drupal.ajax
     - core/drupal.dropbutton
+
+gamecards:
+  version: VERSION
+  css:
+    gamecards:
+      css/gamecards/gamecardlayout.css: {}
+      css/gamecards/roideupik.css: {}
+      css/gamecards/pikachu.css: {}
+  js:
+    js/gamecards.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - core/jquery.form
+    - core/drupal.ajax
+    - core/drupal.dropbutton

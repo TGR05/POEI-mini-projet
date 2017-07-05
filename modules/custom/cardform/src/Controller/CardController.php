@@ -7,5 +7,5 @@ use Drupal\Core\Controller\ControllerBase;
 class CardController extends ControllerBase {
 	
   public function content() {
-  };
+  }
 }
