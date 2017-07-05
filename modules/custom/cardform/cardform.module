@@ -20,16 +20,11 @@ function cardform_theme($existing, $type, $theme, $path) {
                 'email' => NULL,
             ),
         ),
-        'postal_cards_recto' => array(
-            'template' => 'node--postal-cards-recto--full',
+        'postal_cards' => array(
+            'template' => 'node--postal-cards--full',
             'variables' => array(
                 'ptimodou' => NULL,
                 'recto' => NULL,
-            ),
-        ),
-        'postal_cards_verso' => array(
-            'template' => 'node--postal-cards-verso--full',
-            'variables' => array(
                 'verso' => NULL,
                 'nouvelles' => NULL,
                 'nom' => NULL,

@@ -1,8 +1,16 @@
-.right {
+.recto {
 	width:320px;
 	position: fixed;
 	top: 185px;
 	right: 500px;
+	margin-right:20px;
+}
+
+.verso {
+	width:320px;
+	position: fixed;
+	top: 205px;
+	right: 382px;
 	margin-right:20px;
 }
 
