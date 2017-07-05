@@ -7,10 +7,11 @@
 
 
 #displayMot {
-	position: float;
-	font-size: 18px;
-	top: 100px;
-	left: 220px;
+	position: absolute;
+	font-size: 41px;
+	top: 379px;
+	left: 56px;
+	color: #0f00ff;
 }
 
 #displayRecto {
@@ -29,6 +30,7 @@
 	font-size: 18px;
 	top: 175px;
 	left: 220px;
+	color: black;
 }
 #displayNom {
 	position: float;
@@ -36,16 +38,19 @@
 	top: 275px;
 	left: 50px;
 	width: 225px;
+	color: black;
 }
 #displayPrenom {
 	position: float;
 	font-size: 15px;
 	top: 230px;
 	left: 400px;
+	color: black;
 }
 #displayAddresse {
 	position: relative;
 	font-size: 15px;
 	top: 250px;
 	left: 200px;
+	color: black;
 }

@@ -14,13 +14,13 @@
 function update(){
 
   //var modelpro = $("#edit-field-img-pro-card-0-upload").val();
-  var company     = (($("#edit-title-0-value").val() != "") 			     ? $("#edit-title-0-value").val() 		        : "Company");
-  var firstName   = (($("#edit-field-recto-0-upload").val() != "") ? $("#edit-field-recto-0-upload").val() 	: "First Name");
-  var lastName    = (($("#edit-field-verso-0-upload").val() != "") 		   ? $("#edit-field-verso-0-upload").val() 		    : "Last Name") ;
-  var job         = (($("#edit-field-nouvelles-0-value").val() != "") 		   ? $("#edit-field-nouvelles-0-value").val() 		    : "Job");
-  var address     = (($("#edit-field-nom-0-value").val() != "") 	 ? $("#edit-field-nom-0-value").val() 		: "Address") ;
-  var phoneNumber = (($("#edit-field-prenom-0-value").val() != "") 	     ? $("#edit-field-prenom-0-value").val()         : "Phone Number");
-  var email       = (($("#edit-field-adresse-0-value").val() != "") 			 ? $("#edit-field-adresse-0-value").val() 			  : "Email Address");
+  var company     = (($("#edit-title-0-value").val() != "") 			     ? $("#edit-title-0-value").val() 		        : "sweet words");
+  var firstName   = (($("#edit-field-recto-0-upload").val() != "") ? $("#edit-field-recto-0-upload").val() 	: "");
+  var lastName    = (($("#edit-field-verso-0-upload").val() != "") 		   ? $("#edit-field-verso-0-upload").val() 		    : "") ;
+  var job         = (($("#edit-field-nouvelles-0-value").val() != "") 		   ? $("#edit-field-nouvelles-0-value").val() 		    : "News");
+  var address     = (($("#edit-field-nom-0-value").val() != "") 	 ? $("#edit-field-nom-0-value").val() 		: "Last Name") ;
+  var phoneNumber = (($("#edit-field-prenom-0-value").val() != "") 	     ? $("#edit-field-prenom-0-value").val()         : "First Name");
+  var email       = (($("#edit-field-adresse-0-value").val() != "") 			 ? $("#edit-field-adresse-0-value").val() 			  : "Address");
 
 
 
