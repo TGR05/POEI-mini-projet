@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1510e212-5bf1-449c-bdcc-e8012e86997e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardlayout.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/custom/cardform/src/Plugin/Block/PostalcardsBlock.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardrectolayout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardversolayout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/custom/cardform/src/Plugin/Block/PostalcardsRectoBlock.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/custom/cardform/src/Plugin/Block/PostalcardsVersoBlock.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards-verso--full.html.twig" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/custom/cardform/js/cardform.js" afterPath="$PROJECT_DIR$/modules/custom/cardform/js/businesscards.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards-recto--full.html.twig" afterPath="$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/cardform/cardform.info.yml" afterPath="$PROJECT_DIR$/modules/custom/cardform/cardform.info.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/cardform/cardform.libraries.yml" afterPath="$PROJECT_DIR$/modules/custom/cardform/cardform.libraries.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/nouvellecalé.css" afterPath="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/nouvellecalé.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/cardform/templates/node--business-cards--full.html.twig" afterPath="$PROJECT_DIR$/modules/custom/cardform/templates/node--business-cards--full.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js" afterPath="$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig" afterPath="$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,18 +30,8 @@
       <file leaf-file-name="nouvellecalé.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/postalcards/nouvellecalé.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bluepro.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/businesscards/bluepro.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="-664">
+              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -68,31 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postalcards.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="node--postal-cards--full.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="800">
+              <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--business-cards--full.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/custom/cardform/templates/node--business-cards--full.html.twig">
+      <file leaf-file-name="postalcards.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="560">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,14 +95,14 @@
         <option value="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardrectolayout.css" />
         <option value="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardversolayout.css" />
         <option value="$PROJECT_DIR$/modules/custom/cardform/src/Plugin/Block/PostalcardsRectoBlock.php" />
-        <option value="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/nouvellecalé.css" />
         <option value="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardlayout.css" />
         <option value="$PROJECT_DIR$/modules/custom/cardform/js/cardform.js" />
         <option value="$PROJECT_DIR$/modules/custom/cardform/cardform.info.yml" />
         <option value="$PROJECT_DIR$/modules/custom/cardform/cardform.libraries.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js" />
-        <option value="$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig" />
         <option value="$PROJECT_DIR$/modules/custom/cardform/templates/node--business-cards--full.html.twig" />
+        <option value="$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js" />
+        <option value="$PROJECT_DIR$/modules/custom/cardform/css/postalcards/nouvellecalé.css" />
+        <option value="$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig" />
       </list>
     </option>
   </component>
@@ -368,96 +337,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardsfactory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardsfactory" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardform" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardmodels" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="postalcards" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardsfactory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardsfactory" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardform" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardmodels" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardsfactory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardsfactory" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardform" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -623,7 +502,7 @@
       <workItem from="1499154132696" duration="10005000" />
       <workItem from="1499191285229" duration="5444000" />
       <workItem from="1499240046290" duration="13687000" />
-      <workItem from="1499257735187" duration="1605000" />
+      <workItem from="1499257735187" duration="3391000" />
     </task>
     <task id="LOCAL-00001" summary="mon commit de foufou">
       <created>1498592196946</created>
@@ -730,16 +609,23 @@
       <option name="project" value="LOCAL" />
       <updated>1499248130399</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Toutébienkicontinubien">
+      <created>1499259359928</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1499259359928</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46583000" />
+    <option name="totallyTimeSpent" value="48369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="1989" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21197917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21197917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16025274" sideWeight="0.5020986" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -777,7 +663,8 @@
     <MESSAGE value="Commit de mardi matin" />
     <MESSAGE value="Commit de mercredi matin (formulaires businesscard et postalcards)" />
     <MESSAGE value="db" />
-    <option name="LAST_COMMIT_MESSAGE" value="db" />
+    <MESSAGE value="Toutébienkicontinubien" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toutébienkicontinubien" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1016,30 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/businesscards/bluepro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/postalcards/nouvellecalé.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/src/Plugin/Block/PostalcardsBlock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/cardform/js/businesscards.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1072,26 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardlayout.css">
+    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/src/Plugin/Block/PostalcardsBlock.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="800">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1100,6 +947,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/businesscards/bluepro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/postalcards/postalcardlayout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/css/postalcards/nouvellecalé.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-664">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/templates/node--postal-cards--full.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/cardform/js/postalcards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
