@@ -4,16 +4,48 @@
   font-size: 20px;
   background-image: url(../../images/cardmodels/postalcards/Nouvellecal.jpg);
 }
-	#displayMot {
-		position: float;
-		top: 40px;
-		left: 50px;
-	}
-	#displayImages {
-		position: float;
-		top: 175px;
-		left: 150px;
-	}
-		#displayRecto {
-  		font-size: 25px;
-		}
+
+
+#displayMot {
+	position: float;
+	font-size: 18px;
+	top: 100px;
+	left: 220px;
+}
+
+#displayRecto {
+	position: float;
+	top: 175px;
+	left: 150px;
+}
+#displayVerso {
+	position: float;
+	top: 175px;
+	left: 150px;
+}
+
+#displayNouvelles {
+	position: float;
+	font-size: 18px;
+	top: 175px;
+	left: 220px;
+}
+#displayNom {
+	position: float;
+	font-size: 15px;
+	top: 275px;
+	left: 50px;
+	width: 225px;
+}
+#displayPrenom {
+	position: float;
+	font-size: 15px;
+	top: 230px;
+	left: 400px;
+}
+#displayAddresse {
+	position: relative;
+	font-size: 15px;
+	top: 250px;
+	left: 200px;
+}

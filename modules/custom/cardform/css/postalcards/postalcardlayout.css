@@ -1,0 +1,41 @@
+ #postalcardlayout {
+    min-height:450px;
+    max-height:450px;
+    background-color:#FFC;
+    /*padding:10px;*/
+	border:1px solid #FF9;
+	min-width: 1400px;
+    max-width: 1400px;
+    /*background-repeat: no-repeat;*/
+	background-size: 100% 100%;
+	/*text-align: center;*/
+    position: relative;
+    overflow:hidden;
+    }
+        #postalcardrectolayout {
+            font-family: "Verdana", serif;
+            color: white;
+            font-size: 20px;
+            /*background-image: url(../../images/cardmodels/postalcards/Nouvellecal.jpg);*/
+            min-height:450px;
+            max-height:450px;
+            min-width: 700px;
+            max-width: 700px;
+            float:left;
+        }
+
+        #postalcardversolayout {
+	        font-family: "Verdana", serif;
+	        color: white;
+	        font-size: 20px;
+	        background-image: url(../../images/cardmodels/postalcards/verso.jpg);
+            min-height:450px;
+            max-height:450px;
+            min-width: 700px;
+            max-width: 700px;
+            float:left;
+
+        }
+
+
+

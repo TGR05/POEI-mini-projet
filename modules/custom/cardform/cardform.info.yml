@@ -3,6 +3,7 @@ description: Provides a customable form (in BO) wich implement ajax, to create g
 package: Custom
 type: module
 libraries:
-  - cardform/card-styling
+  - cardform/businesscards
+  - cardform/postalcards
 core: '8.x'
 version: '8.3.4'

@@ -1,26 +1,28 @@
-#cardform:
-#  version: VERSION
-#  dependencies:
-#      - core/jquery
-#      - core/drupal
-#      - core/drupalSettings
-#      - core/jquery.once
-#      - core/jquery.form
-#      - core/drupal.ajax
-#      - core/drupal.dropbutton
-
-card-styling:
+businesscards:
   version: VERSION
   css:
     businesscards:
       css/businesscards/businesscardlayout.css: {}
       css/businesscards/bluepro.css: {}
+  js:
+    js/businesscards.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - core/jquery.form
+    - core/drupal.ajax
+    - core/drupal.dropbutton
+
+postalcards:
+  version: VERSION
+  css:
     postalcards:
-      css/postalcards/postalcardrectolayout.css: {}
-      css/postalcards/postalcardversolayout.css: {}
+      css/postalcards/postalcardlayout.css: {}
       css/postalcards/nouvellecalé.css: {}
   js:
-    js/cardform.js: {}
+    js/postalcards.js: {}
   dependencies:
     - core/jquery
     - core/drupal
