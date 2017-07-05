@@ -9,17 +9,25 @@
  */
  #}
 
- {{ attach_library('cardform/card-styling') }}
+ {{ attach_library('cardform/postalcards') }}
 
-<div class="right">
-    <h2>PREVIEW</h2>
-    <div id="postalcardrectolayout">
-        <div id="displayMot"> {{ ptimodou }}</div>
-        <div id="displayImages">
+
+<div id="postalcardlayout">
+
+        <div id="postalcardrectolayout">
+            <span id="displayMot"> {{ ptimodou }}</span>
             <span id="displayRecto">{{ recto }}</span>
         </div>
-    </div>
+
+        <div id="postalcardversolayout">
+                <span id="displayVerso">{{ verso }}</span>
+                <span id="displayNouvelles">{{ nouvelles }}</span>
+                <span id="displayNom">{{ nom }}</span>
+                <span id="displayPrenom">{{ prenom }}</span>
+                <span id="displayAdresse">{{ adresse }}</span>
+        </div>
 </div>
+
 <div class="clear"></div>
 
 
