@@ -1,52 +1,59 @@
 #businesscardlayout {
-  font-family: "Verdana", serif;
-  color: white;
-  font-size: 20px;
-  background-image: url(../../images/cardmodels/businesscards/j7x6bzko.png);
+font-family: "Verdana", serif;
+color: white;
+font-size: 20px;
+background-image: url(../../images/cardmodels/businesscards/j7x6bzko.png);
 }
-	#displayCompany {
-		position: float;
-		top: 40px;
-		left: 50px;
+
+#displayCompany {
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+
+#displayIdentity {
+  position: relative;
+  top: 215px;
+  left: 216px;
+  display: inline-block;
+}
+	#displayFirstName {
+		font-size: 25px;
 	}
-	#displayIdentity {
-		position: float;
-		top: 175px;
-		left: 150px;
+	#displayLastName {
+		 font-size: 25px;
 	}
-		#displayFirstName {
-  		font-size: 25px;
-		}
-		#displayLastName {
- 		 font-size: 25px;
-		}
-	#displayProTitle {
-		position: float;
- 	 font-size: 18px;
-		top: 175px;
-		left: 220px;
-	}
-	#displayAddress {
-		position: float;
- 	 font-size: 15px;
-		top: 275px;
-		left: 50px;
-		width: 225px;
-	}
-	#displayPhoneNumber {
-		position: float;
-  	font-size: 15px;
-		top: 230px;
-		left: 400px;
-	}
-	#displayEmail {
-		position: relative;
- 	 font-size: 15px;
-		top: 250px;
-		left: 200px;
-	}
-	#displayWebsite {
-		position: float;
-		top: -73px;
-		left: 0px;
-	}
+
+#displayJob {
+  position: absolute;
+  top: 260px;
+  left: 290px;
+}
+
+#displayAddress {
+  top: 430px;
+  position: absolute;
+  left: 50px;
+  font-size: 12px;
+}
+
+#displayPhoneNumber {
+  position: absolute;
+  top: 413px;
+  left: 538px;
+  font-size: 12px;
+}
+
+#displayEmail {
+  position: absolute;
+  top: 430px;
+  left: 515px;
+  font-size: 12px;
+}
+
+#displayWebsite {
+  position: absolute;
+  top: 70px;
+  left: 550px;
+}

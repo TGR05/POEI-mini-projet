@@ -10,7 +10,7 @@
   $("#edit-field-address-0-value").keypress(update);
   $("#edit-field-num-0-value").keypress(update);
   $("#edit-field-mail-0-value").keypress(update);
-  $("#website").keypress(update);
+  $("#edit-field-website-0-value").keypress(update);
 });
 
 function update(){
@@ -23,7 +23,7 @@ function update(){
   var address     = (($("#edit-field-address-0-value").val() != "") 	 ? $("#edit-field-address-0-value").val() 		: "Address") ;
   var phoneNumber = (($("#edit-field-num-0-value").val() != "") 	     ? $("#edit-field-num-0-value").val()         : "Phone Number");
   var email       = (($("#edit-field-mail-0-value").val() != "") 			 ? $("#edit-field-mail-0-value").val() 			  : "Email Address");
-  var website     = (($("#website").val() != "") 			                 ? $("#website").val() 		                    : "Website") ;
+  var website     = (($("#edit-field-website-0-value").val() != "") 			                 ? $("#edit-field-website-0-value").val() 		                    : "Website") ;
 
 
   //When selecting the model, loading the CSS file.
@@ -45,5 +45,3 @@ function update(){
   $('#displayWebsite').html(website);
 }
 })(jQuery);
-
-
