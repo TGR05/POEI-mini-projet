@@ -323,7 +323,7 @@ class DrupalKernel implements DrupalKernelInterface, TerminableInterface {
    * 'settings.php' file will match as well. The first configuration file found
    * will be used and the remaining ones will be ignored. If no configuration
    * file is found, returns a default value 'sites/default'. See
-   * default.settings.php for examples on how the URL is converted to a
+   * settings.php for examples on how the URL is converted to a
    * directory.
    *
    * If a file named sites.php is present in the sites directory, it will be
@@ -357,7 +357,7 @@ class DrupalKernel implements DrupalKernelInterface, TerminableInterface {
    *
    * @see \Drupal\Core\DrupalKernelInterface::getSitePath()
    * @see \Drupal\Core\DrupalKernelInterface::setSitePath()
-   * @see default.settings.php
+   * @see settings.php
    * @see example.sites.php
    */
   public static function findSitePath(Request $request, $require_settings = TRUE, $app_root = NULL) {
@@ -963,7 +963,7 @@ class DrupalKernel implements DrupalKernelInterface, TerminableInterface {
     error_reporting(E_STRICT | E_ALL);
 
     // Override PHP settings required for Drupal to work properly.
-    // sites/default/default.settings.php contains more runtime settings.
+    // sites/default/settings.php contains more runtime settings.
     // The .htaccess file contains settings that cannot be changed at runtime.
 
     // Use session cookies, not transparent sessions that puts the session id in

@@ -8,7 +8,7 @@
  * set of aliases that map hostnames, ports, and pathnames to configuration
  * directories in the sites directory. These aliases are loaded prior to
  * scanning for directories, and they are exempt from the normal discovery
- * rules. See default.settings.php to view how Drupal discovers the
+ * rules. See settings.php to view how Drupal discovers the
  * configuration directory when no alias is found.
  *
  * Aliases are useful on development servers, where the domain name may not be
@@ -49,7 +49,7 @@
  * $sites['8080.www.drupal.org.mysite.test'] = 'example.com';
  * @endcode
  *
- * @see default.settings.php
+ * @see settings.php
  * @see \Drupal\Core\DrupalKernel::getSitePath()
  * @see https://www.drupal.org/documentation/install/multi-site
  */

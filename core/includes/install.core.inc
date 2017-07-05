@@ -1978,7 +1978,7 @@ function install_check_requirements($install_state) {
   $default_files = [];
   $default_files['settings.php'] = [
     'file' => 'settings.php',
-    'file_default' => 'default.settings.php',
+    'file_default' => 'settings.php',
     'title_default' => t('Default settings file'),
     'description_default' => t('The default settings file does not exist.'),
     'title' => t('Settings file'),

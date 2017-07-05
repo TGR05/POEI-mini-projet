@@ -84,7 +84,7 @@ abstract class InstallerTestBase extends WebTestBase {
     // settings.php, so as to resemble a regular installation.
     if (!empty($this->settings)) {
       // Not using File API; a potential error must trigger a PHP warning.
-      copy(DRUPAL_ROOT . '/sites/default/default.settings.php', DRUPAL_ROOT . '/' . $this->siteDirectory . '/settings.php');
+      copy(DRUPAL_ROOT . '/sites/default/settings.php', DRUPAL_ROOT . '/' . $this->siteDirectory . '/settings.php');
       $this->writeSettings($this->settings);
     }
 

@@ -27,7 +27,7 @@ class PostalcardsBlock extends BlockBase {
             '#nouvelles' => '',
             '#nom' => '',
             '#prenom' => '',
-            '#adresse' => '',
+            '#addresse' => '',
         );
     }
 }

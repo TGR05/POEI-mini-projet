@@ -289,7 +289,7 @@ abstract class Connection {
    *
    * @param array|string $prefix
    *   Either a single prefix, or an array of prefixes, in any of the multiple
-   *   forms documented in default.settings.php.
+   *   forms documented in settings.php.
    */
   protected function setPrefix($prefix) {
     if (is_array($prefix)) {

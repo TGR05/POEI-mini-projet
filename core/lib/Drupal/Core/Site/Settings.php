@@ -109,7 +109,7 @@ final class Settings {
    *   exposed to the local scope of settings.php, so as to allow it to be
    *   decorated with Symfony's ApcClassLoader, for example.
    *
-   * @see default.settings.php
+   * @see settings.php
    */
   public static function initialize($app_root, $site_path, &$class_loader) {
     // Export these settings.php variables to the global namespace.

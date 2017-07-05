@@ -29,7 +29,7 @@ function cardform_theme($existing, $type, $theme, $path) {
                 'nouvelles' => NULL,
                 'nom' => NULL,
                 'prenom' => NULL,
-                'adresse' => NULL,
+                'addresse' => NULL,
             ),
         ),
         'game_cards' => array(
