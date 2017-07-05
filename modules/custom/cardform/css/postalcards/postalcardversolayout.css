@@ -1,0 +1,64 @@
+.right {
+	width:320px;
+	position: fixed;
+	top: 205px;
+	right: 382px;
+	margin-right:20px;
+}
+
+#postalcardversolayout {
+	min-height:450px;
+  max-height:450px;
+  background-color:#FFC;
+	padding:10px;
+	border:1px solid #FF9;
+	min-width: 700px;
+  max-width: 700px;
+  background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+  position: relative;
+}
+#postalcardversolayout {
+	font-family: "Verdana", serif;
+	color: white;
+	font-size: 20px;
+	background-image: url(../../images/cardmodels/postalcards/verso.png);
+}
+
+#displayImages {
+	position: float;
+	top: 175px;
+	left: 150px;
+}
+#displayVerso {
+	font-size: 25px;
+}
+
+#displayNouvelles {
+	position: float;
+	font-size: 18px;
+	top: 175px;
+	left: 220px;
+}
+#displayNom {
+	position: float;
+	font-size: 15px;
+	top: 275px;
+	left: 50px;
+	width: 225px;
+}
+#displayPrenom {
+	position: float;
+	font-size: 15px;
+	top: 230px;
+	left: 400px;
+}
+#displayAddresse {
+	position: relative;
+	font-size: 15px;
+	top: 250px;
+	left: 200px;
+}
+
+

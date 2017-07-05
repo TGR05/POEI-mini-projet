@@ -1,0 +1,19 @@
+#postalcardrectolayout {
+  font-family: "Verdana", serif;
+  color: white;
+  font-size: 20px;
+  background-image: url(../../images/cardmodels/postalcards/Nouvellecal.jpg);
+}
+	#displayMot {
+		position: float;
+		top: 40px;
+		left: 50px;
+	}
+	#displayImages {
+		position: float;
+		top: 175px;
+		left: 150px;
+	}
+		#displayRecto {
+  		font-size: 25px;
+		}

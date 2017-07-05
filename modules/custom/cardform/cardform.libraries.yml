@@ -15,6 +15,10 @@ card-styling:
     businesscards:
       css/businesscards/businesscardlayout.css: {}
       css/businesscards/bluepro.css: {}
+    postalcards:
+      css/postalcards/postalcardrectolayout.css: {}
+      css/postalcards/postalcardversolayout.css: {}
+      css/postalcards/nouvellecalé.css: {}
   js:
     js/cardform.js: {}
   dependencies:
