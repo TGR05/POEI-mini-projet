@@ -21,7 +21,7 @@ class PostalcardsBlock extends BlockBase {
         return array(
         '#title' => '',
         '#theme' => 'postal_cards',
-            '#ptimodou' => '',
+            '#cheering' => '',
             '#recto' => '',
             '#verso' => '',
             '#nouvelles' => '',
