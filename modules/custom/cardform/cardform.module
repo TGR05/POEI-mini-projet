@@ -23,7 +23,7 @@ function cardform_theme($existing, $type, $theme, $path) {
         'postal_cards' => array(
             'template' => 'node--postal-cards--full',
             'variables' => array(
-                'ptimodou' => NULL,
+                'cheering' => NULL,
                 'recto' => NULL,
                 'verso' => NULL,
                 'nouvelles' => NULL,
