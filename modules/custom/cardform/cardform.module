@@ -18,6 +18,7 @@ function cardform_theme($existing, $type, $theme, $path) {
                 'address' => NULL,
                 'num' => NULL,
                 'email' => NULL,
+                'pattern' => NULL,
             ),
         ),
         'postal_cards' => array(
@@ -64,6 +65,16 @@ function multivaluefield_theme_suggestions_multivaluefield($variables) {
   return $suggestions;
 }
 
-function cardform_form_node_form_alter(&$form, $form_state, $form_id) {
-
+function cardform_form_node_business_cards_form_alter(&$form, $form_state, $form_id) {
+  //id:edit-field-models
+  $form['field_models'] = array(
+     '#type' => 'select',
+     //'#default_value' => '1',
+     '#options' => array(
+                     'none' => t('None'),
+                     'bluepro' => t('Bluepro'),
+                     'colombuspro' => t('Colombuspro'),
+                     'turquoisepro' => t('Turquoisepro'),
+                    ),
+  );
 }

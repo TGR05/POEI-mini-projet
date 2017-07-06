@@ -4,8 +4,8 @@ businesscards:
     businesscards:
       css/businesscards/businesscardlayout.css: {}
       css/businesscards/bluepro.css: {}
-#      css/businesscards/colombuspro.css: {}
-#      css/businesscards/turquoise.css: {}
+      css/businesscards/colombuspro.css: {}
+      css/businesscards/turquoise.css: {}
 
   js:
     js/businesscards.js: {}
