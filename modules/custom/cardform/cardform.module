@@ -47,6 +47,10 @@ function cardform_theme($existing, $type, $theme, $path) {
                 'behindimg' => NULL,
             ),
         ),
+        'node__business_cards' => [
+                'template' => 'node--business-cards',
+                'base hook' => 'node',
+        ],
   );
 
 }
@@ -67,3 +71,10 @@ function multivaluefield_theme_suggestions_multivaluefield($variables) {
 function cardform_form_node_form_alter(&$form, $form_state, $form_id) {
 
 }
+
+/*$theme['node__cardform'] = [
+    'template' => 'node--game-cards--full.html.twig',
+    'base hook' => 'node',
+];
+
+return $theme;*/

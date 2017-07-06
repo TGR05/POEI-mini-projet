@@ -1,4 +1,4 @@
-businesscards:
+businesscardscss:
   version: VERSION
   css:
     businesscards:
@@ -6,7 +6,8 @@ businesscards:
       css/businesscards/bluepro.css: {}
 #      css/businesscards/colombuspro.css: {}
 #      css/businesscards/turquoise.css: {}
-
+businesscardsjs:
+  version: VERSION
   js:
     js/businesscards.js: {}
   dependencies:
