@@ -4,16 +4,10 @@ businesscardscss:
     businesscards:
       css/businesscards/businesscardlayout.css: {}
       css/businesscards/bluepro.css: {}
-<<<<<<< HEAD
       css/businesscards/colombuspro.css: {}
       css/businesscards/turquoise.css: {}
-
-=======
-#      css/businesscards/colombuspro.css: {}
-#      css/businesscards/turquoise.css: {}
 businesscardsjs:
   version: VERSION
->>>>>>> refs/remotes/origin/develop
   js:
     js/businesscards.js: {}
   dependencies:

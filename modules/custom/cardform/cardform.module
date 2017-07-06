@@ -71,21 +71,14 @@ function multivaluefield_theme_suggestions_multivaluefield($variables) {
 
 function cardform_form_node_business_cards_form_alter(&$form, $form_state, $form_id) {
   //id:edit-field-models
-  $form['field_models'] = array(
+  /*$form['field_models'] = array(
+     '#title' => 'Pattern',
      '#type' => 'select',
-     //'#default_value' => '1',
      '#options' => array(
                      'none' => t('None'),
                      'bluepro' => t('Bluepro'),
                      'colombuspro' => t('Colombuspro'),
                      'turquoisepro' => t('Turquoisepro'),
                     ),
-  );
+  );*/
 }
-
-/*$theme['node__cardform'] = [
-    'template' => 'node--game-cards--full.html.twig',
-    'base hook' => 'node',
-];
-
-return $theme;*/
