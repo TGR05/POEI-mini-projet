@@ -1,0 +1,61 @@
+#businesscardlayout {
+  font-family: "Times", serif;
+  color: black;
+  font-size: 20px;
+  background-image: url(../../images/cardmodels/businesscards/colombus.png);
+}
+
+#displayCompany {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  font-size: 40px;
+}
+
+#displayIdentity {
+  position: relative;
+  top: 56px;
+  left: 40px;
+  display: inline-block;
+}
+	#displayFirstName {
+		font-size: 25px;
+	}
+	#displayLastName {
+		 font-size: 25px;
+	}
+
+#displayJob {
+  position: absolute;
+  top: 88px;
+  left: 50px;
+}
+
+#displayAddress {
+  top: 111px;
+  position: absolute;
+  left: 50px;
+  font-size: 16px;
+}
+
+#displayPhoneNumber {
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  font-size: 16px;
+}
+
+#displayEmail {
+  position: absolute;
+  top: 430px;
+  left: 50px;
+  font-size: 18px;
+}
+
+#displayWebsite {
+  position: absolute;
+  top: 430px;
+  left: 550px;
+  font-size: 18px;
+}
