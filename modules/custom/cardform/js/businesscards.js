@@ -12,6 +12,23 @@
   $("#edit-field-mail-0-value").keypress(update);
   $("#edit-field-models").change(update);
   $("#edit-field-website-0-value").keypress(update);
+
+
+
+      $(document).ajaxComplete(function(event, xhr, settings) {
+
+          if ($('.field--name-field-img-pro-card .ajax-new-content').hasClass('processed')) {
+              return;
+          }
+          console.log('test');
+          $('.field--name-field-img-pro-card .ajax-new-content').addClass('processed');
+
+          // get img href
+
+
+          // set href to src img in template preview
+
+      });
 });
 
 function update(){
@@ -30,9 +47,10 @@ function update(){
   //When selecting the model, loading the CSS file.
 
   $(function(){
+    // alert('haaaaa' + pattern); //
     $(document.head.lastChild).remove();
     $("head").append(
-      $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"/cardsfactory/modules/custom/cardform/css/businesscards/" + pattern + ".css"})
+      $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"/modules/custom/cardform/css/businesscards/" + pattern + ".css"})
     );
   });
 

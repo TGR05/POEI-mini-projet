@@ -22,7 +22,11 @@ background-image: url(../../images/cardmodels/businesscards/j7x6bzko.png);
 		font-size: 25px;
 	}
 	#displayLastName {
-		 font-size: 25px;
+        font-size: 25px;
+        float: left;
+        left: 104px;
+        top: -36px;
+        position: relative;
 	}
 
 #displayJob {
@@ -39,10 +43,10 @@ background-image: url(../../images/cardmodels/businesscards/j7x6bzko.png);
 }
 
 #displayPhoneNumber {
-  position: absolute;
-  top: 413px;
-  left: 538px;
-  font-size: 12px;
+    position: relative;
+    top: 334px;
+    left: 543px;
+    font-size: 17px;
 }
 
 #displayEmail {
@@ -56,4 +60,5 @@ background-image: url(../../images/cardmodels/businesscards/j7x6bzko.png);
   position: absolute;
   top: 70px;
   left: 550px;
+  color: #8b94ee;
 }

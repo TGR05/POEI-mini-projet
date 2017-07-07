@@ -1,0 +1,76 @@
+#gamecardlayout {
+	font-family: "Verdana", serif;
+	color: white;
+	font-size: 20px;
+}
+
+#gamecardrectolayout{
+	font-family: "Verdana", serif;
+	color: white;
+	font-size: 20px;
+	background-image: url(../../images/cardmodels/gamecards/spikeking.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+}
+
+#displayCardname {
+	display: inline-block;
+	position: absolute;
+	top: 70px;
+	left: 50px;
+}
+
+#displayCarac1 {
+	position: relative;
+	top: 215px;
+	left: 216px;
+}
+
+#displayCarac2 {
+	position: absolute;
+	top: 260px;
+	left: 290px;
+}
+
+#displayCarac3 {
+	position: absolute;
+	top: 260px;
+	left: 290px;
+}
+
+#displayCarac4 {
+	position: absolute;
+	top: 260px;
+	left: 290px;
+}
+
+#displaySkill {
+	top: 430px;
+	position: absolute;
+	left: 50px;
+	font-size: 12px;
+}
+
+#displayQuestion {
+	position: absolute;
+	top: 413px;
+	left: 538px;
+	font-size: 12px;
+}
+
+#displayAnswer {
+	position: absolute;
+	top: 430px;
+	left: 515px;
+	font-size: 12px;
+}
+
+#displayGameimg {
+	position: absolute;
+	top: 70px;
+	left: 550px;
+}
+
+#displayBehindimg {
+
+}
