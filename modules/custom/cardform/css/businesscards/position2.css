@@ -1,39 +1,38 @@
 #businesscardlayout {
-  font-family: "Verdana", serif;
-  color: white;
+  font-family: "Times", serif;
+  color: black;
   font-size: 20px;
-  background-image: url(../../images/cardmodels/businesscards/modele-carte-de-visite-turquoise.jpg);
 }
 
 #displayCompany {
   display: inline-block;
   position: absolute;
-  top: 56px;
+  top: 30px;
   left: 50px;
-  font-size: 26px;
+  font-size: 40px;
 }
 
 #displayIdentity {
   position: relative;
-  top: 50px;
-  left: 400px;
+  top: 56px;
+  left: 40px;
   display: inline-block;
-  font-size: 18px;
 }
 	#displayFirstName {
+		font-size: 25px;
 	}
 	#displayLastName {
+		 font-size: 25px;
 	}
 
 #displayJob {
   position: absolute;
-  top: 80px;
-  left: 410px;
-  font-size: 16px;
+  top: 88px;
+  left: 50px;
 }
 
 #displayAddress {
-  top: 104px;
+  top: 111px;
   position: absolute;
   left: 50px;
   font-size: 16px;
@@ -41,20 +40,21 @@
 
 #displayPhoneNumber {
   position: absolute;
-  top: 300px;
-  left: 250px;
-  font-size: 20px;
+  top: 130px;
+  left: 50px;
+  font-size: 16px;
 }
 
 #displayEmail {
   position: absolute;
-  top: 250px;
-  left: 250px;
-  font-size: 20px;
+  top: 430px;
+  left: 50px;
+  font-size: 18px;
 }
 
 #displayWebsite {
   position: absolute;
-  top: 82px;
-  left: 50px;
+  top: 430px;
+  left: 550px;
+  font-size: 18px;
 }

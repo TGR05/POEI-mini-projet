@@ -3,9 +3,9 @@ businesscardscss:
   css:
     businesscards:
       css/businesscards/businesscardlayout.css: {}
-      css/businesscards/bluepro.css: {}
-      css/businesscards/colombuspro.css: {}
-      css/businesscards/turquoise.css: {}
+      css/businesscards/position1.css: {}
+      css/businesscards/position2.css: {}
+      css/businesscards/position3.css: {}
 businesscardsjs:
   version: VERSION
   js:
