@@ -21,7 +21,7 @@
 	min-width: 400px;
 	max-width: 400px;
 	/*padding:10px;*/
-	float:left
+	float:left;
 }
 
 #gamecardversolayout {
@@ -29,12 +29,13 @@
 	color: white;
 	font-size: 20px;
 	background-image: url(../../images/cardmodels/gamecards/versogame.jpg);
-	background-repeat: no-repeat;
-	background-size: 400px 400px;
 	min-height:400px;
 	max-height:400px;
 	min-width: 400px;
 	max-width: 400px;
-	padding:10px;
-	float:left
+	background-repeat: no-repeat;
+	float:left;
+	background-size:contain;
 }
+
+

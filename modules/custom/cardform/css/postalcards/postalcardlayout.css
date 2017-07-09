@@ -1,7 +1,7 @@
  #postalcardlayout {
     min-height:450px;
     max-height:450px;
-    background-color:#FFC;
+    /*background-color:#FFC;*/
     /*padding:10px;*/
 	border:1px solid #FF9;
 	min-width: 1400px;
@@ -29,11 +29,6 @@
 	        font-size: 20px;
 	        background-image: url(../../images/cardmodels/postalcards/verso.jpg);
             min-height:450px;
-            max-height:450px;
-            min-width: 700px;
-            max-width: 700px;
-            float:left;
-
         }
 
 

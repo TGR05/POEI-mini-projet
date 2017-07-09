@@ -3,38 +3,36 @@ businesscardscss:
   css:
     businesscards:
       css/businesscards/businesscardlayout.css: {}
-      css/businesscards/position1.css: {}
-      css/businesscards/position2.css: {}
-      css/businesscards/position3.css: {}
+      css/businesscards/bluepro.css: {}
+      css/businesscards/colombuspro.css: {}
+      css/businesscards/turquoise.css: {}
+
 businesscardsjs:
   version: VERSION
   js:
     js/businesscards.js: {}
   dependencies:
     - core/jquery
-    - core/drupal
-    - core/drupalSettings
-    - core/jquery.once
-    - core/jquery.form
-    - core/drupal.ajax
-    - core/drupal.dropbutton
+    #- core/drupal
+    #- core/drupalSettings
+    #- core/jquery.once
+    #- core/jquery.form
+    #- core/drupal.ajax
+    #- core/drupal.dropbutton
 
-postalcards:
+postalcardscss:
   version: VERSION
   css:
     postalcards:
       css/postalcards/postalcardlayout.css: {}
       css/postalcards/nouvellecalé.css: {}
+
+postalcardsjs:
+  version: VERSION
   js:
     js/postalcards.js: {}
   dependencies:
     - core/jquery
-    - core/drupal
-    - core/drupalSettings
-    - core/jquery.once
-    - core/jquery.form
-    - core/drupal.ajax
-    - core/drupal.dropbutton
 
 gamecards:
   version: VERSION
@@ -47,9 +45,4 @@ gamecards:
     js/gamecards.js: {}
   dependencies:
     - core/jquery
-    - core/drupal
-    - core/drupalSettings
-    - core/jquery.once
-    - core/jquery.form
-    - core/drupal.ajax
-    - core/drupal.dropbutton
+

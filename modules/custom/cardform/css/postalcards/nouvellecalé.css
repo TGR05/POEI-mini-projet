@@ -5,13 +5,6 @@
   background-image: url(../../images/cardmodels/postalcards/Nouvellecal.jpg);
 }
 
-#displaynews {
-	min-height:450px;
-	max-height:450px;
-	min-width: 300px;
-	max-width: 300px;
-}
-
 #displayMot {
 	position: absolute;
 	font-size: 41px;
@@ -33,10 +26,10 @@
 }
 
 #displayNouvelles {
-	position: relative;
+	position: absolute;
 	font-size: 18px;
 	top: 15px;
-	left: 23px;
+	left: 724px;
 	color: black;
 }
 #displayNom {

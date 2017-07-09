@@ -1,5 +1,0 @@
-# Schema for the configuration files of the toto theme.
-
-toto.settings:
-  type: theme_settings
-  label: 'toto settings'

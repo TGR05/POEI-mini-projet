@@ -15,21 +15,21 @@
     <div id="gamecardlayout">
 
         <div id="gamecardrectolayout">
-            <span id="displayCardname"> {{ cardname }}</span>
-            <span id="displayCarac1">{{ carac1 }}</span>
-            <span id="displayCarac2">{{ carac2 }}</span>
-            <span id="displayCarac3">{{ carac3 }}</span>
-            <span id="displayCarac4">{{ carac4 }}</span>
+            <span id="displayCardname"> {{ label }}</span>
+            <span id="displayCarac1">{{ content.field_carac1 }}</span>
+            <span id="displayCarac2">{{ content.field_carac2 }}</span>
+            <span id="displayCarac3">{{ content.field_carac3 }}</span>
+            <span id="displayCarac4">{{ content.field_carac4 }}</span>
 
-            <span id="displaySkill">{{ skill }}</span>
-            <span id="displayQuestion">{{ question }}</span>
-            <span id="displayAnswer">{{ answer }}</span>
-            <span id="displayGameimg">{{ gameimg }}</span>
+            <span id="displaySkill">{{ content.field_skill }}</span>
+            <span id="displayQuestion">{{ content.field_question }}</span>
+            <span id="displayAnswer">{{ content.field_answer }}</span>
+            <span id="displayGameimg">{{ content.field_img_game_card }}</span>
 
         </div>
 
         <div id="gamecardversolayout">
-            <span id="displayBehindimg">{{ behindimg }}</span>
+            <span id="displayBehindimg">{{ content.field_behind }}</span>
         </div>
     </div>
 

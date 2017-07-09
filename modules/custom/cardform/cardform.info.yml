@@ -5,7 +5,8 @@ type: module
 libraries:
   - cardform/businesscardscss
   - cardform/businesscardsjs
-  - cardform/postalcards
+  - cardform/postalcardscss
+  - cardform/postalcardsjs
   - cardform/gamecards
 
 core: '8.x'
