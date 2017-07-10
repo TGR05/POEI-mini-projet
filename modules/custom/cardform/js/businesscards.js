@@ -1,7 +1,7 @@
 (function ($) {
   $(document).ready(function(){
 
-  $('.right').hide();
+  //$('.right').slideDown('slow');
   $("#edit-field-img-pro-card-0-upload").click(update);
   $("#edit-title-0-value").change(update);
   $("#edit-field-first-name-0-value").change(update);
@@ -14,10 +14,16 @@
   $("#edit-field-position").change(update);
   $("#edit-field-website-0-value").change(update);
 
-  if ($("span.file--image > a")) {
-    var bgimage = $("span.file--image > a").attr('href');
-    console.log('checking if there is span.file ' + bgimage);
+  var bgimage = $("span.file--image > a").attr('href');
+
+  if (bgimage !== undefined) {
+    console.log('checking if there is span.fileuuuh ' + bgimage);
     $('#businesscardlayout').css('background-image', 'url( ' + bgimage + ')');
+    $('#edit-field-models').attr('disabled', 'disabled');
+  }
+  else {
+    console.log('Whaat ???');
+    $('#edit-field-models').removeAttr('disabled');
   }
 
   $(document).ajaxComplete(function(event, xhr, settings) {
@@ -25,22 +31,31 @@
         $('.ajax-new-content').remove();
 
         $('#businesscardlayout').removeAttr('style');
-        console.log('No background anymore by removing image ');
+        console.log('No background anymore by removing image and reactivate Select image');
         $('#edit-field-models').removeAttr('disabled');
         return;
       }
       $('.field--name-field-img-pro-card .ajax-new-content').addClass('processed');
       var bgimage = $("span.file--image > a").attr('href');
 
-      $('#businesscardlayout').css('background-image', 'url( ' + bgimage + ')');
-      $('#edit-field-models').val('none');
-      console.log('Deactivate Select background image');
-      $('#edit-field-models').attr('disabled', 'disabled');
+      if (bgimage !== undefined) {
+        $('#businesscardlayout').css('background-image', 'url( ' + bgimage + ')');
+        $('#edit-field-models').val('none');
+        console.log('Deactivate Select background image');
+        $('#edit-field-models').attr('disabled', 'disabled');
+      }
+      else {
+        $('#businesscardlayout').removeAttr('style');
+        $('#edit-field-models').val('none');
+        $('#edit-field-models').removeAttr('disabled');
+      }
+
+
   });
+  update();
 });
 
 function update(){
-  $('.right').slideDown('slow');
   var company            = (($("#edit-title-0-value").val() != "") 			      ? $("#edit-title-0-value").val() 		        : "Company");
   var firstName          = (($("#edit-field-first-name-0-value").val() != "") ? $("#edit-field-first-name-0-value").val() : "First Name");
   var lastName           = (($("#edit-field-last-name-0-value").val() != "")  ? $("#edit-field-last-name-0-value").val() 	: "Last Name") ;
@@ -67,12 +82,18 @@ function update(){
   //When selecting the position, loading the CSS file with text positions.
 
   $(function(){
-    $(document.head.lastChild).remove();
+    console.log("Adding position ?");
+
     if (posText != "_none") {
+      $('link[href^="position"]').remove();
+      console.log("Append");
       $("head").append(
         //Note: be carefull, Thomas version is "/modules/custom/cardform/css/businesscards/"
         $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"/cardsfactory/modules/custom/cardform/css/businesscards/" + posText + ".css"})
       );
+    }
+    else {
+      $('link[href^="position"]').remove();
     }
   });
 

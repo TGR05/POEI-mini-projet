@@ -87,21 +87,15 @@ function multivaluefield_theme_suggestions_multivaluefield($variables) {
 }
 
 function cardform_form_node_business_cards_form_alter(&$form, $form_state, $form_id) {
-  //id:edit-field-models
-  /*$form['field_models'] = array(
-     '#title' => 'Pattern',
-     '#type' => 'select',
-     '#options' => array(
-                     'none' => t('None'),
-                     'bluepro' => t('Bluepro'),
-                     'colombuspro' => t('Colombuspro'),
-                     'turquoisepro' => t('Turquoisepro'),
-                    ),
-  );*/
+  $form['edit-field-address-0-value'] = array(
+     '#title' => 'Address',
+     '#type' => 'textarea',
+     '#rows' => 6,
+     '#cols' => 60,
+  );
 }
 /*function cardform_theme_registry_alter(&$theme_registry) {
     $theme_registry['page__node__add__business_cards']['template'] = '/modules/custom/cardform/templates/page--node--add--business-cards';
     $theme_registry['page__node__add__business_cards']['variables'] = ['content' => NULL];
 
 }*/
-
