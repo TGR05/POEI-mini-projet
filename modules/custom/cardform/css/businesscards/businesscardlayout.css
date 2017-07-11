@@ -9,9 +9,9 @@
 #businesscardlayout {
 	min-height:450px;
   max-height:450px;
-  background-color:#FFC;
+  background-color:#e6e6df;
 	padding:10px;
-	border:1px solid #FF9;
+	border:1px solid #e6e6df;
 	min-width: 700px;
   max-width: 700px;
   background-repeat: no-repeat;

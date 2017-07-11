@@ -7,15 +7,15 @@
 #displayCompany {
   display: inline-block;
   position: absolute;
-  top: 30px;
-  left: 50px;
+  top: 10%;
+  left: 10%;
   font-size: 40px;
 }
 
 #displayIdentity {
-  position: relative;
-  top: 56px;
-  left: 40px;
+  position: absolute;
+  top: 17%;
+  left: 10%;
   display: inline-block;
 }
 	#displayFirstName {
@@ -27,34 +27,34 @@
 
 #displayJob {
   position: absolute;
-  top: 88px;
-  left: 50px;
+  top: 22%;
+  left: 10%;
 }
 
 #displayAddress {
-  top: 111px;
+  top: 27%;
   position: absolute;
-  left: 50px;
+  left: 10%;
   font-size: 16px;
 }
 
 #displayPhoneNumber {
   position: absolute;
-  top: 130px;
-  left: 50px;
+  top: 31%;
+  left: 10%;
   font-size: 16px;
 }
 
 #displayEmail {
   position: absolute;
-  top: 430px;
-  left: 50px;
+  top: 90%;
+  left: 10%;
   font-size: 18px;
 }
 
 #displayWebsite {
   position: absolute;
-  top: 430px;
-  left: 550px;
+  top: 90%;
+  right: 10%;
   font-size: 18px;
 }
