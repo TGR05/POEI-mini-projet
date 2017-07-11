@@ -144,6 +144,3 @@ drupal.vertical-tabs:
     - core/drupal.form
     - core/matchmedia
     
-libraryperso:
-  css:
-    css/libperso/titlecustom.css: {}

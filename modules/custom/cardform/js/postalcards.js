@@ -14,7 +14,7 @@
 function update(){
 
   //var modelpro = $("#edit-field-img-pro-card-0-upload").val();
-  var mot     = (($("#edit-title-0-value").val() != "") 			     ? $("#edit-title-0-value").val() 		        : "sweet words");
+  var mot     = (($("#edit-title-0-value").val() != "") 			     ? $("#edit-title-0-value").val() 		        : "sweet word");
   var Recto   = (($("#edit-field-recto-0-upload").val() != "") ? $("#edit-field-recto-0-upload").val() 	: "");
   var Verso    = (($("#edit-field-verso-0-upload").val() != "") 		   ? $("#edit-field-verso-0-upload").val() 		    : "") ;
   var Nouvelles         = (($("#edit-field-nouvelles-0-value").val() != "") 		   ? $("#edit-field-nouvelles-0-value").val() 		    : "News");

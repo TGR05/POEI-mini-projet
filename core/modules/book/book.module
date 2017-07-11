@@ -458,7 +458,7 @@ function template_preprocess_book_navigation(&$variables) {
 /**
  * Prepares variables for book export templates.
  *
- * Default template: book-export-html.html.twig.
+ * Default template: book-export-html--front.html.twig.
  *
  * @param array $variables
  *   An associative array containing:
@@ -484,7 +484,7 @@ function template_preprocess_book_export_html(&$variables) {
 /**
  * Prepares variables for single node export templates.
  *
- * Default template: book-node-export-html.html.twig.
+ * Default template: book-node-export-html--front.html.twig.
  *
  * @param array $variables
  *   An associative array containing the following keys:

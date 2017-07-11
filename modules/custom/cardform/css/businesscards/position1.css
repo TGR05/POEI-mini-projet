@@ -55,3 +55,7 @@
   top: 10%;
   right: 5%;
 }
+
+.js-text-full.text-full.form-textarea.resize-vertical {
+    max-width: 507px;
+}
