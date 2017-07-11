@@ -18,3 +18,7 @@
 	background-size: 100% 100%;
   position: relative;
 }
+
+#edit-field-address-0-value {
+	max-width: 506px;
+}
