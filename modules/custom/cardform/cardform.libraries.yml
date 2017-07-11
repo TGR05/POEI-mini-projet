@@ -3,9 +3,9 @@ businesscardscss:
   css:
     businesscards:
       css/businesscards/businesscardlayout.css: {}
-      css/businesscards/bluepro.css: {}
-      css/businesscards/colombuspro.css: {}
-      css/businesscards/turquoise.css: {}
+      css/businesscards/position1.css: {}
+      css/businesscards/position2.css: {}
+      css/businesscards/position3.css: {}
 
 businesscardsjs:
   version: VERSION
@@ -34,13 +34,15 @@ postalcardsjs:
   dependencies:
     - core/jquery
 
-gamecards:
+gamecardscss:
   version: VERSION
   css:
     gamecards:
       css/gamecards/gamecardlayout.css: {}
       css/gamecards/roideupik.css: {}
-      css/gamecards/pikachu.css: {}
+
+gamecardsjs:
+  version: VERSION
   js:
     js/gamecards.js: {}
   dependencies:

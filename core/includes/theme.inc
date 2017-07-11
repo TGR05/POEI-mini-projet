@@ -1251,7 +1251,7 @@ function _template_preprocess_default_variables() {
 /**
  * Prepares variables for HTML document templates.
  *
- * Default template: html.html.twig.
+ * Default template: html--front.html.twig.
  *
  * @param array $variables
  *   An associative array containing:

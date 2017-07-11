@@ -61,3 +61,7 @@
   left: 550px;
   color: #8b94ee;
 }
+
+.js-text-full.text-full.form-textarea.resize-vertical {
+    max-width: 507px;
+}

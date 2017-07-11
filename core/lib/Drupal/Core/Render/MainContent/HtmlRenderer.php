@@ -122,7 +122,7 @@ class HtmlRenderer implements MainContentRendererInterface {
 
     $page['#title'] = $title;
 
-    // Now render the rendered page.html.twig template inside the html.html.twig
+    // Now render the rendered page.html.twig template inside the html--front.html.twig
     // template, and use the bubbled #attached metadata from $page to ensure we
     // load all attached assets.
     $html = [
@@ -130,8 +130,8 @@ class HtmlRenderer implements MainContentRendererInterface {
       'page' => $page,
     ];
 
-    // The special page regions will appear directly in html.html.twig, not in
-    // page.html.twig, hence add them here, just before rendering html.html.twig.
+    // The special page regions will appear directly in html--front.html.twig, not in
+    // page.html.twig, hence add them here, just before rendering html--front.html.twig.
     $this->buildPageTopAndBottom($html);
 
     // Render, but don't replace placeholders yet, because that happens later in
@@ -195,7 +195,7 @@ class HtmlRenderer implements MainContentRendererInterface {
 
     // If the _controller result already is #type => page,
     // we have no work to do: The "main content" already is an entire "page"
-    // (see html.html.twig).
+    // (see html--front.html.twig).
     if (isset($main_content['#type']) && $main_content['#type'] === 'page') {
       $page = $main_content;
       $title = $get_title($page);

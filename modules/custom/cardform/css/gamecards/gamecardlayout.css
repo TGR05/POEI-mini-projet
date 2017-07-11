@@ -1,8 +1,8 @@
 #gamecardlayout {
 	min-height:400px;
 	max-height:400px;
-	background-color:#FFC;
-	padding:10px;
+	/*background-color:#FFC;
+	padding:10px;*/
 	border:1px solid #FF9;
 	min-width: 800px;
 	max-width: 800px;
@@ -12,30 +12,30 @@
 	position: relative;
 	overflow:hidden;
 }
-#gamecardrectolayout {
-	font-family: "Verdana", serif;
-	color: white;
-	font-size: 20px;
-	min-height:400px;
-	max-height:400px;
-	min-width: 400px;
-	max-width: 400px;
-	/*padding:10px;*/
-	float:left;
-}
+		#gamecardrectolayout {
+			font-family: "Verdana", serif;
+			color: white;
+			font-size: 20px;
+			min-height:400px;
+			max-height:400px;
+			min-width: 400px;
+			max-width: 400px;
+			/*padding:10px;*/
+			float:left;
+		}
 
-#gamecardversolayout {
-	font-family: "Verdana", serif;
-	color: white;
-	font-size: 20px;
-	background-image: url(../../images/cardmodels/gamecards/versogame.jpg);
-	min-height:400px;
-	max-height:400px;
-	min-width: 400px;
-	max-width: 400px;
-	background-repeat: no-repeat;
-	float:left;
-	background-size:contain;
-}
+		#gamecardversolayout {
+			font-family: "Verdana", serif;
+			color: white;
+			font-size: 20px;
+			background-image: url(../../images/cardmodels/gamecards/versogame.jpg);
+			min-height:400px;
+			max-height:400px;
+			min-width: 400px;
+			max-width: 400px;
+			background-repeat: no-repeat;
+			float:left;
+			background-size:contain;
+		}
 
 

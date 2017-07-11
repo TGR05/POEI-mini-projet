@@ -97,8 +97,12 @@
     </thead>
   {% endif %}
   <tbody>
+  {%  set bgimglines = ['spiralcards.jpg',
+                    'paradiseisland.jpg',
+                    'entreprises.jpg']%}
+  {% set cpt = 0 %}
     {% for row in rows %}
-      <tr{{ row.attributes }}>
+      <tr{{ row.attributes }} style="background-image: url(/modules/custom/cardform/images/{{  bgimglines[cpt] }});">
         {% for key, column in row.columns %}
           {% if column.default_classes %}
             {%
@@ -125,6 +129,9 @@
           </td>
         {% endfor %}
       </tr>
+
+  {% set cpt = cpt + 1 %}
+
     {% endfor %}
   </tbody>
 </table>

@@ -465,7 +465,7 @@ class Renderer implements RendererInterface {
     // children.
     // #states and #attached have to be processed before #theme_wrappers,
     // because the #type 'page' render array from drupal_prepare_page() would
-    // render the $page and wrap it into the html.html.twig template without the
+    // render the $page and wrap it into the html--front.html.twig template without the
     // attached assets otherwise.
     // If the internal #render_children property is set, do not call the
     // #theme_wrappers function(s) to prevent infinite recursion.
