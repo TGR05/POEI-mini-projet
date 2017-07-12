@@ -13,34 +13,58 @@
   $("#edit-field-img-game-card-0-upload").change(update);
   $("#edit-field-upload_image_verso").change(update);
 
-  var bgimagerecto = $("span.file--image > a:eq(0)").attr('href');
+  var bgimagerecto = undefined;
+  var bgimageverso = undefined;
 
-  if (bgimagerecto !== undefined) {
-    $('#gamecardrectolayout').css('background-image', 'url( ' + bgimagerecto + ')');
+  if($('span.file--image > a').length == 1) {
+    if($('#edit-field-img-game-card-0-remove-button')) {
+      console.log("length11");
+      bgimagerecto = $("span.file--image > a:eq(0)").attr('href');
+    }
+    else {
+      console.log("length12");
+      bgimageverso = $("span.file--image > a:eq(0)").attr('href');
+    }
   }
 
-  var bgimageverso = $("span.file--image > a:eq(1)").attr('href');
+  if($('span.file--image > a').length == 2) {
+    console.log("length2");
+      bgimagerecto = $("span.file--image > a:eq(0)").attr('href');
+      bgimageverso = $("span.file--image > a:eq(1)").attr('href');
+  }
+
+  if (bgimagerecto !== undefined) {
+    console.log("imagerecto");
+    $('#gamecardrectolayout').css('background-image', 'url( ' + bgimagerecto + ')');
+    $('.field--name-field-img-game-card .ajax-new-content').addClass('processed');
+  }
 
   if (bgimageverso !== undefined) {
+    console.log("imageverso");
     $('#gamecardversolayout').css('background-image', 'url( ' + bgimageverso + ')');
+    $('.field--name-field-upload-image-verso .ajax-new-content').addClass('processed');
   }
 
   $(document).ajaxComplete(function(event, xhr, settings) {
     //RECTO
+    console.log(event.target);
     if(~settings.url.indexOf("field_img_game_card")) {
       console.log('entering recto');
       if ($('.field--name-field-img-game-card .ajax-new-content').hasClass('processed')) {
         console.log("remove recto");
-        $('.ajax-new-content:eq(0)').remove();
+        //$('.ajax-new-content').remove();
         $('#gamecardrectolayout').removeAttr('style');
         $('.field--name-field-img-game-card .ajax-new-content').removeClass('processed');
         return;
       }
+      console.log("addingrecto");
+
       $('.field--name-field-img-game-card .ajax-new-content').addClass('processed');
 
-      var bgimagerecto = $("span.file--image > a:eq(0)").attr('href');
+      bgimagerecto = $("span.file--image > a:eq(0)").attr('href'); //Manage here when single or double
 
       if (bgimagerecto !== undefined) {
+        console.log("gorecto");
         $('#gamecardrectolayout').css('background-image', 'url( ' + bgimagerecto + ')');
       }
       return;
@@ -48,18 +72,22 @@
 
    //VERSO
    if(~settings.url.indexOf("field_upload_image_verso")) {
-     if ($('.field--name-field-upload-image-verso .ajax-new-content').hasClass('processed')) {
+     if ($('.field--name-field-upload-image-verso .ajax-new-content').hasClass('processed') || !$('#edit-field-upload-image-verso-0-remove-button')) {
        console.log("remove verso");
-       $('.ajax-new-content:eq(1)').remove();
+       //$('.ajax-new-content').remove();
        $('#gamecardversolayout').removeAttr('style');
        $('.field--name-field-upload-image-verso .ajax-new-content').removeClass('processed');
        return;
      }
+     console.log("adding verso");
      $('.field--name-field-upload-image-verso .ajax-new-content').addClass('processed');
 
-     var bgimageverso = $("span.file--image > a:eq(1)").attr('href');
+     if($('span.file--image > a').length == 1) bgimageverso = $("span.file--image > a:eq(0)").attr('href');
+
+     if($('span.file--image > a').length == 2) bgimageverso = $("span.file--image > a:eq(1)").attr('href');
 
      if (bgimageverso !== undefined) {
+       console.log("Verso added");
        $('#gamecardversolayout').css('background-image', 'url( ' + bgimageverso + ')');
      }
    }
