@@ -39,7 +39,7 @@ gamecardscss:
   css:
     gamecards:
       css/gamecards/gamecardlayout.css: {}
-      css/gamecards/roideupik.css: {}
+      css/gamecards/positions.css: {}
 
 gamecardsjs:
   version: VERSION
@@ -47,4 +47,3 @@ gamecardsjs:
     js/gamecards.js: {}
   dependencies:
     - core/jquery
-

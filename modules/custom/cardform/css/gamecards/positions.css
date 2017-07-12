@@ -1,0 +1,89 @@
+#alphaLayerName {
+	display: inline-block;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	background-color: rgba(7, 33, 74, 0.56);
+}
+
+#displayCardname {
+	font-size: 18px;
+	color: white;
+}
+
+#displayCarac1 {
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	font-size: 18px;
+	color: black;
+}
+
+#displayCarac2 {
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+	left: 39%;
+	font-size: 18px;
+	color: black;
+}
+
+#displayCarac3 {
+	display: inline-block;
+	position: absolute;
+	top: 90%;
+	left: 5%;
+	font-size: 18px;
+	color: black;
+}
+
+#displayCarac4 {
+	display: inline-block;
+  position: absolute;
+  top: 90%;
+  left: 39%;
+  font-size: 18px;
+  color: black;
+}
+
+#alphaLayerSkill {
+	display: inline-block;
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	background-color: rgba(7, 33, 74, 0.56);
+}
+
+#displaySkill {
+  font-size: 14px;
+  color: white;
+	font: italic;
+}
+
+#alphaLayerQuestion {
+	display: inline-block;
+	position: absolute;
+	top: 45%;
+	left: 5%;
+	background-color: rgba(7, 33, 74, 0.56);
+}
+
+#displayQuestion {
+	font-size: 14px;
+	color: white;
+}
+
+#alphaLayerAnswer {
+	display: inline-block;
+	position: absolute;
+	top: 25%;
+	left: 55%;
+	background-color: rgba(7, 33, 74, 0.56);
+}
+
+#displayAnswer {
+	font-size: 16px;
+	color: white;
+	font: italic;
+}

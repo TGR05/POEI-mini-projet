@@ -17,12 +17,10 @@
   var bgimage = $("span.file--image > a").attr('href');
 
   if (bgimage !== undefined) {
-    console.log('checking if there is span.fileuuuh ' + bgimage);
     $('#businesscardlayout').css('background-image', 'url( ' + bgimage + ')');
     $('#edit-field-models').attr('disabled', 'disabled');
   }
   else {
-    console.log('Whaat ???');
     $('#edit-field-models').removeAttr('disabled');
   }
 
@@ -31,7 +29,6 @@
         $('.ajax-new-content').remove();
 
         $('#businesscardlayout').removeAttr('style');
-        console.log('No background anymore by removing image and reactivate Select image');
         $('#edit-field-models').removeAttr('disabled');
         return;
       }
@@ -41,7 +38,6 @@
       if (bgimage !== undefined) {
         $('#businesscardlayout').css('background-image', 'url( ' + bgimage + ')');
         $('#edit-field-models').val('none');
-        console.log('Deactivate Select background image');
         $('#edit-field-models').attr('disabled', 'disabled');
       }
       else {
@@ -49,8 +45,6 @@
         $('#edit-field-models').val('none');
         $('#edit-field-models').removeAttr('disabled');
       }
-
-
   });
   update();
 });
@@ -66,27 +60,21 @@ function update(){
   var patternBgImage     = $("#edit-field-models").val();
   var posText            = $("#edit-field-position").val();
   var website            = (($("#edit-field-website-0-value").val() != "")    ? $("#edit-field-website-0-value").val() 		: "Website") ;
-  console.log(patternBgImage);
-  console.log("/cardsfactory/modules/custom/cardform/images/cardmodels/businesscards/" + patternBgImage);
+
   if (patternBgImage != "_none") {
     if (patternBgImage != null) {
       $('#businesscardlayout').css('background-image', 'url("/cardsfactory/modules/custom/cardform/images/cardmodels/businesscards/' + patternBgImage + '")');
-      console.log("1 " + patternBgImage);
     }
     else {
       patternBgImage = $("span.file--image > a").attr('href');
-      console.log("2 " + patternBgImage);
       $('#businesscardlayout').css('background-image', 'url( ' + patternBgImage + ')');
     }
   }
   //When selecting the position, loading the CSS file with text positions.
 
   $(function(){
-    console.log("Adding position ?");
-
     if (posText != "_none") {
       $('link[href^="position"]').remove();
-      console.log("Append");
       $("head").append(
         //Note: be carefull, Thomas version is "/modules/custom/cardform/css/businesscards/"
         $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"/cardsfactory/modules/custom/cardform/css/businesscards/" + posText + ".css"})

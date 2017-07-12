@@ -55,10 +55,11 @@ function cardform_theme($existing, $type, $theme, $path) {
          'node__postal_cards' => [
                 'template' => 'node--postal-cards',
                 'base hook' => 'node',
-      ],
-        /*'page__node__add__business_cards' => [
-             'variables' => ['test_var' => NULL],
-        ],*/
+        ],
+        'node__game_cards' => [
+               'template' => 'node--game-cards',
+               'base hook' => 'node',
+       ],
 
 
   );
