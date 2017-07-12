@@ -63,7 +63,7 @@ function update(){
 
   if (patternBgImage != "_none") {
     if (patternBgImage != null) {
-      $('#businesscardlayout').css('background-image', 'url("/cardsfactory/modules/custom/cardform/images/cardmodels/businesscards/' + patternBgImage + '")');
+      $('#businesscardlayout').css('background-image', 'url("/modules/custom/cardform/images/cardmodels/businesscards/' + patternBgImage + '")');
     }
     else {
       patternBgImage = $("span.file--image > a").attr('href');
@@ -77,7 +77,7 @@ function update(){
       $('link[href^="position"]').remove();
       $("head").append(
         //Note: be carefull, Thomas version is "/modules/custom/cardform/css/businesscards/"
-        $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"/cardsfactory/modules/custom/cardform/css/businesscards/" + posText + ".css"})
+        $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"/modules/custom/cardform/css/businesscards/" + posText + ".css"})
       );
     }
     else {

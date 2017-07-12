@@ -5,11 +5,22 @@
  *
  * find this tpl in modules/custom/cardfactory/templates
  *
+ *{{ attach_library('cardform/businesscardscss') }}
+ *
+ *
+ *{{ kint(content.field_position.items.list.value.getValue) }}
+ *
+ *{{ content.field_img_pro_card }}
+ *           {{ kint(content.field_img_pro_card) }}
+ *
+ *    <div id="businesscardlayout" style="background-image: url(/modules/custom/cardform/images/cardmodels/businesscards/{{ content.field_models['#items'].getString() }}{{ content.field_img_pro_card['#items'].getString() }});">
  *
  */
  #}
 
+
 {{ attach_library('cardform/businesscardscss') }}
+
 
 
 <div{{ content_attributes }}>
@@ -18,22 +29,41 @@
 
 
 <div{{ content_attributes }}>
-    <div id="businesscardlayout">
-        <div id="displayCompany">{{ label }}</div>
-        <div id="displayIdentity">
-            <span id="displayFirstName">{{ content.field_first_name }}</span>
-            <span id="displayLastName">{{ content.field_last_name }}</span>
+    <link rel="stylesheet" type="text/css" href="/modules/custom/cardform/css/businesscards/{{ content.field_position['#items'].getString() }}.css">
+
+
+    {% if content.field_models['#items'].getString() is empty %}
+        <div id="businesscardlayout" style="background-image: url('{{ (content.field_img_pro_card.0['#markup'])}}')">
+            <div id="displayCompany">{{ label }}</div>
+            <div id="displayIdentity">
+                <span id="displayFirstName">{{ content.field_first_name }}</span>
+                <span id="displayLastName">{{ content.field_last_name }}</span>
+            </div>
+            <span id="displayJob">{{ content.field_job }}</span>
+            <div id="displayAddress">{{ content.field_address }}</div>
+            <span id="displayEmail">{{ content.field_mail }}</span>
+            <span id="displayWebsite">{{ content.field_website}}</span>
+            <span id="displayPhoneNumber">{{ content.field_num }}</span>
         </div>
-        <span id="displayJob">{{ content.field_job }}</span>
-        <div id="displayAddress">{{ content.field_address }}</div>
-        <span id="displayEmail">{{ content.field_mail }}</span>
-        <span id="displayWebsite">{{ content.field_website}}</span>
-        <span id="displayPhoneNumber">{{ content.field_num }}</span>
-    </div>
-</div>
+    {% endif %}
+
+    {% if content.field_img_pro_card['#items'].getString() is empty %}
+        <div id="businesscardlayout" style="background-image: url(/modules/custom/cardform/images/cardmodels/businesscards/{{ content.field_models['#items'].getString() }});">
+            <div id="displayCompany">{{ label }}</div>
+            <div id="displayIdentity">
+                <span id="displayFirstName">{{ content.field_first_name }}</span>
+                <span id="displayLastName">{{ content.field_last_name }}</span>
+            </div>
+            <span id="displayJob">{{ content.field_job }}</span>
+            <div id="displayAddress">{{ content.field_address }}</div>
+            <span id="displayEmail">{{ content.field_mail }}</span>
+            <span id="displayWebsite">{{ content.field_website}}</span>
+            <span id="displayPhoneNumber">{{ content.field_num }}</span>
+        </div>
+    {% endif %}
+
+
 <div class="clear"></div>
-
-
 
 
 
