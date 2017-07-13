@@ -48,6 +48,8 @@
   $(document).ajaxComplete(function(event, xhr, settings) {
     //RECTO
     console.log(event.target);
+    console.log("azer " + bgimagerecto);
+    console.log("qsdf " + bgimageverso);
     if(~settings.url.indexOf("field_img_game_card")) {
       console.log('entering recto');
       if ($('.field--name-field-img-game-card .ajax-new-content').hasClass('processed')) {
@@ -56,6 +58,14 @@
         $('#gamecardrectolayout').removeAttr('style');
         $('.field--name-field-img-game-card .ajax-new-content').removeClass('processed');
         return;
+      }
+
+      if(!$('#edit-field-img-game-card-0-remove-button')) {
+        console.log("remoooooove");
+        $('#gamecardrectolayout').removeAttr('style');
+        $('.field--name-field-img-game-card .ajax-new-content').removeClass('processed');
+        return;
+
       }
       console.log("addingrecto");
 
